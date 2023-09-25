@@ -493,12 +493,111 @@ body {
   align-items: center;
 }
 
-#obra-1 {
-  margin-top: 20px;
-  width: 90%;
-  height: 1500px;
+#obras {
+  margin-top: 80px;
   border: 1px solid #FBF8F4;
   border-radius: 5px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#obras .obras-titulo-container {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  padding-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#obras .obras-titulo-container h1 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 60px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#obras .obras-intro-container {
+  width: 90vw;
+  border-radius: 5px;
+  padding: 5px;
+}
+#obras .obras-intro-container p {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+#obras .obra-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#obras .obra-container .obra-titulo-container {
+  background-color: #FBF8F4;
+  width: 100%;
+  height: 140px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#obras .obra-container .obra-titulo-container h1 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  margin: 0;
+}
+#obras .obra-container .obra-titulo-container h2 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+#obras .obra-container .obra-imgslider-container {
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #FBF8F4;
+}
+#obras .obra-container .obra-descripcion-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#obras .obra-container .obra-descripcion-container .obra-descripcion-1 {
+  padding: 5px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#obras .obra-container .obra-descripcion-container .obra-descripcion-1 p {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+}
+#obras .obra-container .obra-descripcion-container .obra-descripcion-2 {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#obras .obra-container .obra-descripcion-container .obra-descripcion-2 p {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 * {

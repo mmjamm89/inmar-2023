@@ -42,10 +42,111 @@ body {
     align-items: center;    
 }
 
-#obra-1{
-    margin-top: 20px;
-    width: 90%;
-    height: 1500px;
+#obras {
+    margin-top: 80px;
     border: 1px solid $color-2;
     border-radius: 5px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .obras-titulo-container {
+        width: 100%;
+        height: 100px;
+        padding: 5px;
+        padding-top: 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        h1 {
+            color: $color-2;
+            font-family: $font-1;
+            font-size: 60px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .obras-intro-container {
+        width: 90vw;        
+        border-radius: 5px;
+        padding: 5px;
+        p {
+            color: $color-2;
+            font-family: $font-2;
+            font-size: 16px;
+        }
+    }
+    .obra-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;    
+        .obra-titulo-container {
+            background-color: $color-2;
+            width: 100%;
+            height: 140px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            h1 {
+                color: $color-1;
+                font-family: $font-1;
+                font-weight: 800;
+                font-size: 26px;
+                margin: 0;
+            }
+            h2 {
+                color: $color-1;
+                font-family: $font-1;
+                font-size: 16px;
+                margin: 0;
+            }
+        }
+        .obra-imgslider-container {
+            width: 100%;
+            height: 200px;
+            border-bottom: 1px solid $color-2;
+            
+        }
+        .obra-descripcion-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            .obra-descripcion-1 {
+                padding: 5px;
+                height: 100px;                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p {
+                    color: $color-2;
+                    font-family: $font-2;                    
+                }
+            }
+            .obra-descripcion-2 {
+                width: 100%;
+                height: 100px;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                p {
+                    color: $color-2;
+                    font-family: $font-1;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
 }
+
