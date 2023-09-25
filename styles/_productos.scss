@@ -22,3 +22,44 @@ $font-4: 'Epilogue', sans-serif;
 //OTHER
 
 //STYLES
+
+.productos-intro-container {
+    margin-top: 80px;
+    width: 90vw;
+    padding: 5px;
+    padding: 5px;
+    p {
+        color: $color-2;
+        font-family: $font-2;
+    }
+}
+.productos-marcas-container {
+    width: 90vw;
+    background-color: $color-2;
+    padding: 5px;
+    border-radius: 5px 5px 0 0 ;
+    display: flex;
+    flex-direction: column;
+    .productos-marcas-titulo-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        h1 {
+            color: $color-1;
+            font-family: $font-1;
+            height: 80px;
+            font-size: 40px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        h2 {
+            color: $color-1;
+            font-family: $font-1;
+            font-size: 16px;
+        }
+    }    
+}
