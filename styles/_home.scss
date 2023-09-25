@@ -1,0 +1,360 @@
+//variables
+
+//COLORS
+// $color-1: #393737;
+$color-1: #2f2d2d;
+$color-2: #FBF8F4;
+$color-3: white;
+$color-4: #FEF2D4;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$font-1: 'Lexend Tera', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+$font-2: 'Mulish', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+$font-3: 'Questrial', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$font-4: 'Epilogue', sans-serif;
+
+//PADDING
+
+//OTHER
+
+//STYLES
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-1;
+    overflow-x: hidden;
+}
+
+#page-container {    
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;        
+}
+
+//MAIN CONTENT
+
+#call-to-action {
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 718px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid $color-2;
+    border-radius: 5px;
+    background-color: $color-2;
+    max-width: 500px;
+    .logo-home-container {        
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .text-civiles-container {        
+        width: 95%;        
+        .text-home {
+            font-family: $font-1;
+            font-size: 16px;
+            color: $color-1;
+            margin-left: 0;
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;                      
+        }
+    }
+    .text-productos-container {        
+        margin-top: 20px;
+        width: 95%;
+        .text-productos {
+            font-family: $font-1;
+            font-size: 16px;
+            color: $color-1;
+            margin-left: 0;
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+    .home-button-container {        
+        margin-top: 39px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button-home {
+            width: 300px;
+            height: 63px;
+            background-color: $color-1;
+            border: none;
+            border-radius: 5px;
+            filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.9));
+            a {
+                text-decoration: none;
+                font-family: $font-1;
+                color: $color-2;
+                font-size: 24px;
+            }
+        }
+    }
+    .slider-home-container {
+        margin-top: 39px;
+        border: solid;
+        border-radius: 5px;
+        width: 95%;
+        height: 300px;
+    }
+}
+
+#slider-obras {
+    margin-top: 20px;
+    height: 320px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color-2;
+    border-radius: 5px;
+    max-width: 500px;
+    .slider-obras-container {        
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .slider-obras-button-container {            
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .slider-obras-button {
+                height: 50px;
+                width: 300px;
+                background-color: $color-2;
+                border: none;
+                border-radius: 5px;
+                filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+                a {
+                    text-decoration: none;
+                    font-family: $font-1;
+                    font-weight: bold;
+                    color: $color-1;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+#descripcion-empresa {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 589px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color-2;
+    border-radius: 5px;
+    max-width: 500px;
+    .descripcion-empresa-container {        
+        width: 95%;
+        height: 100%;
+        .descripcion-empresa-text {            
+            color: $color-2;
+            font-family: $font-1;
+            font-size: 20px;
+        }
+        .descripcion-empresa-mkt {            
+            margin-top: 20px;
+            color: $color-2;
+            font-family: $font-1;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .descripcion-empresa-button-container {            
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+            .descripcion-empresa-button {                
+                height: 50px;
+                width: 300px;
+                background-color: $color-2;
+                border: none;
+                border-radius: 5px;
+                filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+                a {
+                    text-decoration: none;
+                    font-family: $font-1;
+                    font-weight: bold;
+                    color: $color-1;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+#invitacion-catalogo {
+    margin-top: 20px;
+    height: 320px;
+    width: 90vw;
+    border: 1px solid $color-2;
+    border-radius: 5px;
+    max-width: 500px;
+    .invitacion-catalogo-container {        
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .invitacion-catalogo-button-container {            
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .invitacion-catalogo-button {
+                height: 50px;
+                width: 300px;
+                background-color: $color-2;
+                border: none;
+                border-radius: 5px;
+                filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+                a {
+                    text-decoration: none;
+                    font-family: $font-1;
+                    font-weight: bold;
+                    color: $color-1;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+#presentacion-marcas {
+    margin-top: 20px;    
+    width: 90vw;
+    border: 1px solid $color-2;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    .presentacion-marcas-container {        
+        height: 100%;
+        width: 95%;
+        .presentacion-marcas-intro-text {
+            font-family: $font-1;
+            color: $color-2;
+            font-size: 14px;            
+        }
+        .marcas-container {            
+            margin-top: 20px;
+            width: 100%;            
+            .marcas {
+                margin-top: 10px;
+                width: 100%;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .marcas-logo-container {
+                    height: 40%;
+                    width: 100%;                    
+                    color: $color-2;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: $font-2;
+                    font-size: 30px;
+                }
+                .marcas-home-descripcion {
+                    font-family: $font-1;
+                    color: $color-2;
+                    font-size: 16px;
+                    width: 100%;
+                    height: 30%;
+                    margin: 0;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .marcas-boton-home-container {
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .marcas-boton-link-home {
+                        height: 40px;
+                        width: 190px;
+                        border-radius: 5px;
+                        border: none;
+                        cursor: pointer;
+                        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+                        a {
+                            text-decoration: none;
+                            font-family: $font-1;
+                            color: $color-1;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+        .presentacion-marcas-button-container {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .presentacion-marcas-button {
+                height: 75px;
+                width: 300px;
+                background-color: $color-2;
+                border: none;
+                border-radius: 5px;
+                filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                a {
+                    text-decoration: none;
+                    font-family: $font-1;
+                    font-weight: bold;
+                    color: $color-1;
+                    font-size: 20px;                    
+                }
+            }
+        }
+    }
+}
+#confian-en-nosotros {
+    margin-top: 20px;
+    height: 200px;
+    width: 90vw;
+    background-color: $color-2;
+    border-radius: 5px;
+}
