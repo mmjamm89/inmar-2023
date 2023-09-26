@@ -108,6 +108,7 @@ body {
   justify-content: center;
 }
 #call-to-action .home-button-container .button-home {
+  margin-bottom: 30px;
   width: 300px;
   height: 63px;
   background-color: #2f2d2d;
@@ -122,11 +123,31 @@ body {
   font-size: 24px;
 }
 #call-to-action .slider-home-container {
-  margin-top: 39px;
-  border: solid;
   border-radius: 5px;
   width: 95%;
-  height: 300px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#call-to-action .slider-home-container .slider-home-img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+#call-to-action .slider-home-container .slider-home-img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #slider-obras {
@@ -145,6 +166,12 @@ body {
   height: 100%;
   position: relative;
 }
+#slider-obras .slider-obras-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 #slider-obras .slider-obras-container .slider-obras-button-container {
   height: 100px;
   width: 100%;
@@ -152,6 +179,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  bottom: 0;
 }
 #slider-obras .slider-obras-container .slider-obras-button-container .slider-obras-button {
   height: 50px;
@@ -232,6 +260,12 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
+}
+#invitacion-catalogo .invitacion-catalogo-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 #invitacion-catalogo .invitacion-catalogo-container .invitacion-catalogo-button-container {
   height: 100px;
@@ -570,6 +604,12 @@ body {
   border-left: 2px solid #FBF8F4;
   border-right: 2px solid #FBF8F4;
 }
+#obras .obra-container .obra-imgslider-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 #obras .obra-container .obra-descripcion-container {
   width: 100%;
   display: flex;
@@ -659,6 +699,12 @@ body {
   border-left: 2px solid #FBF8F4;
   border-right: 2px solid #FBF8F4;
   border-bottom: 2px solid #FBF8F4;
+}
+.productos-marcas-container .productos-marcas-slider-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .productos-marcas-container .productos-marcas-descripcion-container {
   width: 100%;

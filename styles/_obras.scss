@@ -116,6 +116,11 @@ body {
             border-bottom: 2px solid $color-2;
             border-left: 2px solid $color-2;
             border-right: 2px solid $color-2;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
         .obra-descripcion-container {
             width: 100%;
