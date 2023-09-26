@@ -113,9 +113,9 @@ body {
         .obra-imgslider-container {
             width: 100%;
             height: 200px;
-            border-bottom: 1px solid $color-2;
-            border-left: 1px solid $color-2;
-            border-right: 1px solid $color-2;
+            border-bottom: 2px solid $color-2;
+            border-left: 2px solid $color-2;
+            border-right: 2px solid $color-2;
         }
         .obra-descripcion-container {
             width: 100%;
@@ -123,9 +123,9 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            border-left: 1px solid $color-2;
-            border-right: 1px solid $color-2;
-            border-bottom: 1px solid $color-2;
+            border-left: 2px solid $color-2;
+            border-right: 2px solid $color-2;
+            border-bottom: 2px solid $color-2;
             border-radius: 0 0 5px 5px;
             .obra-descripcion-1 {
                 padding: 5px;
