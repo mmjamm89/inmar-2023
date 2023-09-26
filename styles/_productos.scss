@@ -24,7 +24,8 @@ $font-4: 'Epilogue', sans-serif;
 //STYLES
 
 .productos-intro-container {
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     width: 90vw;
     padding: 5px;
     padding: 5px;
@@ -40,6 +41,7 @@ $font-4: 'Epilogue', sans-serif;
     flex-direction: column;
     border-bottom: 1px solid $color-2;
     border-radius: 5px;
+    margin-bottom: 20px;
     .productos-marcas-titulo-container {
         width: 100%;
         padding: 5px;
@@ -81,15 +83,13 @@ $font-4: 'Epilogue', sans-serif;
         justify-content: flex-start;
         border-left: 1px solid $color-2;
         border-right: 1px solid $color-2;
+        border-radius: 0 0 5px 5px;
         p {
             color: $color-2;
             font-family: $font-2;
         }
     }    
 }
-#marcas-mitad {
-    border-radius: 0;
-}
-#marcas-ultimo {
-    border-radius: 0;
+#productos-marcas-ultimo {
+    margin-bottom: 0;
 }

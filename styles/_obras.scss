@@ -43,8 +43,7 @@ body {
 }
 
 #obras {
-    margin-top: 80px;
-    border: 1px solid $color-2;
+    margin-top: 60px;    
     border-radius: 5px;
     width: 90vw;
     display: flex;
@@ -53,8 +52,7 @@ body {
     justify-content: flex-start;
     .obras-titulo-container {
         width: 100%;
-        height: 100px;
-        padding: 5px;
+        height: 70px;        
         padding-top: 0;
         display: flex;
         align-items: flex-start;
@@ -73,6 +71,7 @@ body {
         width: 90vw;        
         border-radius: 5px;
         padding: 5px;
+        margin-bottom: 20px;
         p {
             color: $color-2;
             font-family: $font-2;
@@ -84,8 +83,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;    
+        justify-content: flex-start;
+        border-radius: 5px;
+        margin-bottom: 20px;
         .obra-titulo-container {
+            border-radius: 5px 5px 0 0;
             background-color: $color-2;
             width: 100%;
             height: 140px;
@@ -112,7 +114,8 @@ body {
             width: 100%;
             height: 200px;
             border-bottom: 1px solid $color-2;
-            
+            border-left: 1px solid $color-2;
+            border-right: 1px solid $color-2;
         }
         .obra-descripcion-container {
             width: 100%;
@@ -120,6 +123,10 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
+            border-left: 1px solid $color-2;
+            border-right: 1px solid $color-2;
+            border-bottom: 1px solid $color-2;
+            border-radius: 0 0 5px 5px;
             .obra-descripcion-1 {
                 padding: 5px;
                 height: 100px;                

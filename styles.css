@@ -494,8 +494,7 @@ body {
 }
 
 #obras {
-  margin-top: 80px;
-  border: 1px solid #FBF8F4;
+  margin-top: 60px;
   border-radius: 5px;
   width: 90vw;
   display: flex;
@@ -505,8 +504,7 @@ body {
 }
 #obras .obras-titulo-container {
   width: 100%;
-  height: 100px;
-  padding: 5px;
+  height: 70px;
   padding-top: 0;
   display: flex;
   align-items: flex-start;
@@ -525,6 +523,7 @@ body {
   width: 90vw;
   border-radius: 5px;
   padding: 5px;
+  margin-bottom: 20px;
 }
 #obras .obras-intro-container p {
   color: #FBF8F4;
@@ -537,8 +536,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 #obras .obra-container .obra-titulo-container {
+  border-radius: 5px 5px 0 0;
   background-color: #FBF8F4;
   width: 100%;
   height: 140px;
@@ -565,6 +567,8 @@ body {
   width: 100%;
   height: 200px;
   border-bottom: 1px solid #FBF8F4;
+  border-left: 1px solid #FBF8F4;
+  border-right: 1px solid #FBF8F4;
 }
 #obras .obra-container .obra-descripcion-container {
   width: 100%;
@@ -572,6 +576,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  border-left: 1px solid #FBF8F4;
+  border-right: 1px solid #FBF8F4;
+  border-bottom: 1px solid #FBF8F4;
+  border-radius: 0 0 5px 5px;
 }
 #obras .obra-container .obra-descripcion-container .obra-descripcion-1 {
   padding: 5px;
@@ -601,7 +609,8 @@ body {
 }
 
 .productos-intro-container {
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   width: 90vw;
   padding: 5px;
   padding: 5px;
@@ -618,6 +627,7 @@ body {
   flex-direction: column;
   border-bottom: 1px solid #FBF8F4;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 .productos-marcas-container .productos-marcas-titulo-container {
   width: 100%;
@@ -660,18 +670,15 @@ body {
   justify-content: flex-start;
   border-left: 1px solid #FBF8F4;
   border-right: 1px solid #FBF8F4;
+  border-radius: 0 0 5px 5px;
 }
 .productos-marcas-container .productos-marcas-descripcion-container p {
   color: #FBF8F4;
   font-family: "Mulish", sans-serif;
 }
 
-#marcas-mitad {
-  border-radius: 0;
-}
-
-#marcas-ultimo {
-  border-radius: 0;
+#productos-marcas-ultimo {
+  margin-bottom: 0;
 }
 
 * {
@@ -686,14 +693,14 @@ body {
 }
 
 .kaiken-producto-container {
-  margin-top: 20px;
+  margin-top: 70px;
   width: 90%;
-  border: 1px solid #FBF8F4;
   border-radius: 5px;
 }
 .kaiken-producto-container .kaiken-producto-logo-container {
+  border-radius: 5px 5px 0 0;
   width: 100%;
-  height: 200px;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -708,8 +715,8 @@ body {
 .kaiken-producto-container .kaiken-producto-imgslider-container {
   width: 100%;
   height: 300px;
-  border-top: 1px solid #FBF8F4;
-  border-bottom: 1px solid #FBF8F4;
+  border-left: 1px solid #FBF8F4;
+  border-right: 1px solid #FBF8F4;
 }
 .kaiken-producto-container .kaiken-producto-text-container {
   width: 100%;
@@ -719,6 +726,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+  border-radius: 0 0 5px 5px;
 }
 .kaiken-producto-container .kaiken-producto-text-container p {
   color: #2f2d2d;
@@ -735,8 +743,11 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+  border: 1px solid #FBF8F4;
+  border-radius: 5px;
 }
 .kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-img-container {
+  border-radius: 5px;
   background-color: #2f2d2d;
   width: 50%;
   height: 100%;
@@ -822,7 +833,7 @@ body {
 
 #form-contacto {
   width: 90%;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
