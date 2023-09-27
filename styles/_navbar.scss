@@ -31,7 +31,8 @@ $font-2: 'Mulish', sans-serif;
     .navbar {        
         display: flex;
         justify-content: space-between;
-        width: 90vw;        
+        width: 90vw;
+        max-width: 494px;
         .logo {
             display: grid;
             place-items: center;
@@ -103,3 +104,31 @@ $font-2: 'Mulish', sans-serif;
     }    
 }
 // MOBILE NAV END
+
+@media screen and (max-width: 1000px) {
+    .desktop-nav {
+        display: none;
+    }
+    .logo-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .navbar {
+        min-width: 90vw;
+    }
+    #navbar .navbar .logo {
+        display: none;
+    }
+    .mobile-nav {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+    .desktop-nav {
+        background-color: red;
+    }
+
+}

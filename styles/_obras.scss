@@ -39,10 +39,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;        
 }
 
 #obras {
+    max-width: 500px;
     margin-top: 60px;    
     border-radius: 5px;
     width: 90vw;
@@ -72,10 +73,11 @@ body {
         border-radius: 5px;
         padding: 5px;
         margin-bottom: 20px;
+        max-width: 500px;
         p {
             color: $color-2;
             font-family: $font-2;
-            font-size: 16px;
+            font-size: 16px;            
         }
     }
     .obra-container {

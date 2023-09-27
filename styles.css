@@ -149,6 +149,71 @@ body {
      object-fit: cover;
 }
 
+#call-to-action-desktop {
+  width: 90vw;
+  max-width: 1100px;
+  height: 400px;
+  border: 2px solid #FBF8F4;
+  background-color: #FBF8F4;
+  border-radius: 10px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container {
+  width: 60%;
+  height: 100%;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-logo-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-logo-container svg {
+  width: 90%;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container {
+  width: 100%;
+  height: 50%;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-civiles-container-desktop {
+  width: 100%;
+  height: 50%;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-civiles-container-desktop .text-home-desktop {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-size: 30px;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-productos-container-desktop {
+  width: 100%;
+  height: 50%;
+}
+#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-productos-container-desktop .text-productos-desktop {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-size: 24px;
+}
+#call-to-action-desktop .call-to-action-desktop-slider-container {
+  width: 40%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#call-to-action-desktop .call-to-action-desktop-slider-container .desktop-slider-container {
+  height: 90%;
+  width: 90%;
+  color: #2f2d2d;
+  border-radius: 10px;
+  border: solid;
+}
+
 #slider-obras {
   margin-top: 20px;
   height: 320px;
@@ -194,6 +259,51 @@ body {
   font-weight: bold;
   color: #2f2d2d;
   font-size: 20px;
+}
+
+#slider-obras-desktop {
+  width: 90vw;
+  max-width: 1100px;
+  height: 300px;
+  border: 2px solid #FBF8F4;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+#slider-obras-desktop img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#slider-obras-desktop .boton-obras-desktop {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  height: 75px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+}
+#slider-obras-desktop .boton-obras-desktop a {
+  text-decoration: none;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+#slider-obras-desktop .boton-obras-desktop:hover {
+  background-color: #2f2d2d;
+}
+#slider-obras-desktop .boton-obras-desktop:hover a {
+  color: #FBF8F4;
 }
 
 #descripcion-empresa {
@@ -247,6 +357,72 @@ body {
   font-size: 20px;
 }
 
+#descripcion-empresa-desktop {
+  width: 90vw;
+  max-width: 1100px;
+  border: 2px solid #FBF8F4;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+  display: none;
+}
+#descripcion-empresa-desktop button {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  height: 75px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+}
+#descripcion-empresa-desktop button a {
+  text-decoration: none;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop p {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 20px;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop .descripcion-empresa-text {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop .descripcion-empresa-text h1 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 30px;
+}
+
 #invitacion-catalogo {
   margin-top: 20px;
   height: 320px;
@@ -289,6 +465,51 @@ body {
   font-weight: bold;
   color: #2f2d2d;
   font-size: 16px;
+}
+
+#invitacion-catalogo-desktop {
+  width: 90vw;
+  max-width: 1100px;
+  height: 300px;
+  border: 2px solid #FBF8F4;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+#invitacion-catalogo-desktop img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  height: 75px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+}
+#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop a {
+  text-decoration: none;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop:hover {
+  background-color: #2f2d2d;
+}
+#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop:hover a {
+  color: #FBF8F4;
 }
 
 #presentacion-marcas {
@@ -396,6 +617,92 @@ body {
   font-size: 20px;
 }
 
+#presentacion-marcas-desktop {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 90vw;
+  max-width: 1100px;
+  background-color: #FBF8F4;
+  display: none;
+}
+#presentacion-marcas-desktop .presentacion-marcas-text-container-desktop {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#presentacion-marcas-desktop .presentacion-marcas-text-container-desktop p {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+#presentacion-marcas-desktop .presentacion-marcas-subtext-container-desktop {
+  width: 100%;
+  padding: 10px;
+}
+#presentacion-marcas-desktop .presentacion-marcas-subtext-container-desktop h1 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-titulo-container-desktop {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-titulo-container-desktop h1 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-descripcion-container-desktop {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-descripcion-container-desktop p {
+  color: #2f2d2d;
+  text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-boton-container-desktop {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-boton-container-desktop button {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+  background-color: #2f2d2d;
+}
+#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-boton-container-desktop button a {
+  text-decoration: none;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  cursor: pointer;
+}
+
 #confian-en-nosotros {
   margin-top: 20px;
   height: 200px;
@@ -404,6 +711,46 @@ body {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 1000px) {
+  #call-to-action-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #call-to-action {
+    display: none;
+  }
+  #slider-obras {
+    display: none;
+  }
+  #slider-obras-desktop {
+    display: flex;
+  }
+  #descripcion-empresa {
+    display: none;
+  }
+  #descripcion-empresa-desktop {
+    display: inline;
+  }
+  #invitacion-catalogo {
+    display: none;
+  }
+  #invitacion-catalogo-desktop {
+    display: flex;
+  }
+  #presentacion-marcas {
+    display: none;
+  }
+  #presentacion-marcas-desktop {
+    display: inline;
+  }
+  #confian-en-nosotros {
+    display: none;
+  }
+  #call-to-action-desktop {
+    display: flex;
+  }
+}
 #navbar {
   position: fixed;
   height: 60px;
@@ -418,6 +765,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 90vw;
+  max-width: 494px;
 }
 #navbar .navbar .logo {
   display: grid;
@@ -492,6 +840,31 @@ body {
   font-size: 35px;
 }
 
+@media screen and (max-width: 1000px) {
+  .desktop-nav {
+    display: none;
+  }
+  .logo-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .navbar {
+    min-width: 90vw;
+  }
+  #navbar .navbar .logo {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .desktop-nav {
+    background-color: red;
+  }
+}
 footer {
   height: 100px;
   width: 100%;
@@ -527,6 +900,7 @@ body {
 }
 
 #obras {
+  max-width: 500px;
   margin-top: 60px;
   border-radius: 5px;
   width: 90vw;
@@ -557,6 +931,7 @@ body {
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 20px;
+  max-width: 500px;
 }
 #obras .obras-intro-container p {
   color: #FBF8F4;
@@ -653,6 +1028,7 @@ body {
   width: 90vw;
   padding: 5px;
   padding: 5px;
+  max-width: 500px;
 }
 .productos-intro-container p {
   color: #FBF8F4;
@@ -660,6 +1036,7 @@ body {
 }
 
 .productos-marcas-container {
+  max-width: 500px;
   width: 90vw;
   background-color: #FBF8F4;
   display: flex;
@@ -738,6 +1115,7 @@ body {
 }
 
 .kaiken-producto-container {
+  max-width: 500px;
   margin-top: 70px;
   width: 90%;
   border-radius: 5px;
@@ -870,6 +1248,7 @@ body {
 }
 
 #mapa-contacto {
+  max-width: 500px;
   width: 90%;
   border-radius: 5px;
   height: 200px;
@@ -878,6 +1257,7 @@ body {
 
 #form-contacto {
   width: 90%;
+  max-width: 500px;
   margin-top: 60px;
   margin-bottom: 50px;
   display: flex;
@@ -964,6 +1344,7 @@ body {
 }
 
 #datos-contacto {
+  max-width: 500px;
   width: 100%;
   margin-top: 50px;
   width: 90%;
