@@ -703,6 +703,74 @@ body {
   cursor: pointer;
 }
 
+#form-contacto-home {
+  width: 90vw;
+  max-width: 1100px;
+  border-radius: 10px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF8F4;
+}
+#form-contacto-home .form-home-container {
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+}
+#form-contacto-home .form-home-container #form-inmar-home h4 {
+  font-family: "Questrial", sans-serif;
+  color: #2f2d2d;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+#form-contacto-home .form-home-container #form-inmar-home input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 14px;
+  border: 2px solid #2f2d2d;
+  border-radius: 5px;
+  padding: 5px;
+}
+#form-contacto-home .form-home-container #form-inmar-home textarea {
+  width: 100%;
+  height: 100px;
+  border: 2px solid #2f2d2d;
+  border-radius: 5px;
+  padding: 5px;
+}
+#form-contacto-home .form-home-container #form-inmar-home .form-btn-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn {
+  height: 75px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2f2d2d;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+#form-contacto-home .contacto-home-container {
+  width: 50%;
+}
+#form-contacto-home .contacto-home-container .datos-contacto-home-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+
 #confian-en-nosotros {
   margin-top: 20px;
   height: 200px;
@@ -715,6 +783,9 @@ body {
   #call-to-action-desktop {
     display: none;
   }
+  #form-contacto-home {
+    display: none;
+  }
 }
 @media screen and (min-width: 1000px) {
   #call-to-action {
@@ -725,30 +796,35 @@ body {
   }
   #slider-obras-desktop {
     display: flex;
+    margin-top: 40px;
   }
   #descripcion-empresa {
     display: none;
   }
   #descripcion-empresa-desktop {
     display: inline;
+    margin-top: 40px;
   }
   #invitacion-catalogo {
     display: none;
   }
   #invitacion-catalogo-desktop {
     display: flex;
+    margin-top: 40px;
   }
   #presentacion-marcas {
     display: none;
   }
   #presentacion-marcas-desktop {
     display: inline;
+    margin-top: 40px;
   }
   #confian-en-nosotros {
     display: none;
   }
   #call-to-action-desktop {
     display: flex;
+    margin-top: 120px;
   }
 }
 #navbar {
@@ -765,7 +841,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 90vw;
-  max-width: 494px;
 }
 #navbar .navbar .logo {
   display: grid;
@@ -841,6 +916,9 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  .navbar {
+    max-width: 494px;
+  }
   .desktop-nav {
     display: none;
   }
@@ -849,8 +927,12 @@ body {
   }
 }
 @media screen and (min-width: 1000px) {
+  #navbar {
+    height: 100px;
+    width: 100vw;
+  }
   .navbar {
-    min-width: 90vw;
+    max-width: 1100px;
   }
   #navbar .navbar .logo {
     display: none;
@@ -861,8 +943,33 @@ body {
   .burger {
     display: none;
   }
+  .logo-desktop {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
   .desktop-nav {
-    background-color: red;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .desktop-nav .desktop-nav-links-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .desktop-nav .desktop-nav-links-container .desktop-nav-link {
+    color: #FBF8F4;
+    text-decoration: none;
+    font-family: "Lexend Tera", sans-serif;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
   }
 }
 footer {
