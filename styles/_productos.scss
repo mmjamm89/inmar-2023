@@ -42,7 +42,7 @@ $font-4: 'Epilogue', sans-serif;
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid $color-2;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 20px;
     .productos-marcas-titulo-container {
         width: 100%;
@@ -90,7 +90,7 @@ $font-4: 'Epilogue', sans-serif;
         justify-content: flex-start;
         border-left: 2px solid $color-2;
         border-right: 2px solid $color-2;
-        border-radius: 0 0 5px 5px;
+        border-radius: 0 0 20px 20px;
         p {
             color: $color-2;
             font-family: $font-2;
