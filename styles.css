@@ -153,7 +153,7 @@ body {
 
 #call-to-action-desktop {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1300px;
   height: 400px;
   border: 2px solid #FBF8F4;
   background-color: #FBF8F4;
@@ -267,7 +267,7 @@ body {
 
 #slider-obras-desktop {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1300px;
   height: 300px;
   border: 2px solid #FBF8F4;
   margin-top: 20px;
@@ -364,7 +364,7 @@ body {
 
 #descripcion-empresa-desktop {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1300px;
   border-radius: 20px;
   margin-top: 20px;
   position: relative;
@@ -475,7 +475,7 @@ body {
 
 #invitacion-catalogo-desktop {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1300px;
   height: 300px;
   border: 2px solid #FBF8F4;
   margin-top: 20px;
@@ -628,7 +628,7 @@ body {
   margin-top: 20px;
   border-radius: 20px;
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1300px;
   background-color: #FBF8F4;
   display: none;
 }
@@ -712,7 +712,7 @@ body {
 
 #form-contacto-home {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1300px;
   border-radius: 20px;
   margin-top: 40px;
   display: flex;
@@ -939,7 +939,7 @@ body {
     width: 100vw;
   }
   .navbar {
-    max-width: 1100px;
+    max-width: 1300px;
   }
   #navbar .navbar .logo {
     display: none;
@@ -1144,6 +1144,17 @@ footer h5 {
   font-family: "Mulish", sans-serif;
 }
 
+.productos-intro-container-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  margin-top: 120px;
+}
+.productos-intro-container-desktop p {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 20px;
+}
+
 .productos-marcas-container {
   max-width: 500px;
   width: 90vw;
@@ -1208,10 +1219,164 @@ footer h5 {
   font-family: "Mulish", sans-serif;
 }
 
+.productos-marcas-container-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 1300px;
+  margin-top: 40px;
+}
+.productos-marcas-container-desktop .productos-marcas-titulo-container-desktop {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #FBF8F4;
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
+}
+.productos-marcas-container-desktop .productos-marcas-titulo-container-desktop h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  text-transform: uppercase;
+}
+.productos-marcas-container-desktop .productos-marcas-slider-container-desktop {
+  width: 100%;
+  height: 340px;
+  border-left: 3px solid #FBF8F4;
+  border-right: 3px solid #FBF8F4;
+}
+.productos-marcas-container-desktop .productos-marcas-slider-container-desktop img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.productos-marcas-container-desktop .productos-marcas-descripcion-container-desktop {
+  width: 100%;
+  padding: 10px;
+  border-left: 3px solid #FBF8F4;
+  border-right: 3px solid #FBF8F4;
+}
+.productos-marcas-container-desktop .productos-marcas-descripcion-container-desktop p {
+  font-family: "Questrial", sans-serif;
+  color: #FBF8F4;
+  font-size: 20px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  background-color: #FBF8F4;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0 0 20px 20px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop h3 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 32px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop p {
+  color: #2f2d2d;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop {
+  width: 40%;
+  max-width: 1300px;
+  border-radius: 0 0 20px 20px;
+  border-left: 3px solid #FBF8F4;
+  border-right: 3px solid #FBF8F4;
+  border-bottom: 3px solid #FBF8F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop {
+  height: 400px;
+  width: 300px;
+  border: 3px solid #FBF8F4;
+  border-radius: 20px;
+  position: relative;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop button {
+  position: absolute;
+  height: 75px;
+  width: 90%;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+  border: none;
+  bottom: -220px;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop button a {
+  text-decoration: none;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
 #productos-marcas-ultimo {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .productos-intro-container-desktop {
+    display: none;
+  }
+  .productos-marcas-container-desktop {
+    display: none;
+  }
+  #productos-marcas-ultimo-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .productos-intro-container {
+    display: none;
+  }
+  .productos-marcas-container {
+    display: none;
+  }
+  #productos-marcas-ultimo {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;

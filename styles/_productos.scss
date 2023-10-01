@@ -35,6 +35,17 @@ $font-4: 'Epilogue', sans-serif;
         font-family: $font-2;
     }
 }
+.productos-intro-container-desktop {
+    width: 90vw;
+    max-width: 1300px; 
+    margin-top: 120px;
+    p {
+        font-family: $font-1;
+        color: $color-2;
+        font-size: 20px;
+    }
+
+}
 .productos-marcas-container {
     max-width: 500px;
     width: 90vw;
@@ -97,6 +108,162 @@ $font-4: 'Epilogue', sans-serif;
         }
     }    
 }
+.productos-marcas-container-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 1300px;
+    margin-top: 40px;
+    .productos-marcas-titulo-container-desktop {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: $color-2;
+        border-radius: 20px 20px 0 0;
+        padding: 10px;
+        h1 {
+            font-family: $font-1;
+            color: $color-1;
+            text-transform: uppercase;
+        }        
+    }
+    .productos-marcas-slider-container-desktop {        
+        width: 100%;
+        height: 340px;
+        border-left: 3px solid $color-2;
+        border-right: 3px solid $color-2;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .productos-marcas-descripcion-container-desktop {
+        width: 100%;        
+        padding: 10px;
+        border-left: 3px solid $color-2;
+        border-right: 3px solid $color-2;        
+        p {            
+            font-family: $font-3;
+            color: $color-2;
+            font-size: 20px;            
+        }
+    }
+    .productos-marcas-beneficios-container-desktop {
+        width: 90vw;
+        max-width: 1300px;        
+        background-color: $color-2;
+        padding: 10px;
+        display: flex;        
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 0 0 20px 20px;
+        .productos-marcas-beneficios-desktop {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            h3 {
+                color: $color-1;
+                font-family: $font-1;
+                font-size: 32px;
+            }
+            p {
+                color: $color-1;
+                font-family: $font-3;
+                font-size: 20px;
+                margin-bottom: 16px;
+            }
+        }        
+        .productos-marcas-dlc-container-desktop {
+            width: 40%;            
+            max-width: 1300px;
+            border-radius: 0 0 20px 20px;
+            border-left: 3px solid $color-2;
+            border-right: 3px solid $color-2;
+            border-bottom: 3px solid $color-2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .productos-marcas-dlc-link-container-desktop {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .productos-marcas-dlc-link-desktop {
+                    height: 400px;
+                    width: 300px;
+                    border: 3px solid $color-2;
+                    border-radius: 20px;
+                    position: relative;                    
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;   
+                        border-radius: 20px;                 
+                    }
+                    button {
+                        position: absolute;
+                        height: 75px;
+                        width: 90%;
+                        border-radius: 10px;
+                        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+                        border: none;
+                        bottom: -220px;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        margin: auto;
+                        cursor: pointer;
+                        a {
+                            text-decoration: none;
+                            color: $color-1;
+                            font-family: $font-1;
+                            font-size: 18px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
 #productos-marcas-ultimo {
     margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .productos-intro-container-desktop {
+        display: none;
+    }
+    .productos-marcas-container-desktop {
+        display: none;
+    }
+    #productos-marcas-ultimo-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .productos-intro-container {
+        display: none;
+    }
+    .productos-marcas-container {
+        display: none;
+    }
+    #productos-marcas-ultimo {
+        display: none;
+    }
+}
+
