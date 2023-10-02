@@ -70,6 +70,7 @@ body {
   border-radius: 20px;
   background-color: #FBF8F4;
   max-width: 500px;
+  transition: 0.3s;
 }
 #call-to-action .logo-home-container {
   width: 95%;
@@ -163,6 +164,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  transition: 0.3s;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container {
   width: 60%;
@@ -227,6 +229,7 @@ body {
   border: 2px solid #FBF8F4;
   border-radius: 20px;
   max-width: 500px;
+  transition: 0.3s;
 }
 #slider-obras .slider-obras-container {
   width: 100%;
@@ -278,6 +281,7 @@ body {
   overflow: hidden;
   position: relative;
   display: none;
+  transition: 0.3s;
 }
 #slider-obras-desktop img {
   -o-object-fit: cover;
@@ -323,6 +327,7 @@ body {
   border-radius: 20px;
   max-width: 500px;
   background-color: #2f2d2d;
+  transition: 0.3s;
 }
 #descripcion-empresa .descripcion-empresa-container {
   width: 95%;
@@ -370,6 +375,7 @@ body {
   position: relative;
   display: none;
   background-color: #2f2d2d;
+  transition: 0.3s;
 }
 #descripcion-empresa-desktop button {
   position: absolute;
@@ -435,6 +441,7 @@ body {
   border: 2px solid #FBF8F4;
   border-radius: 20px;
   max-width: 500px;
+  transition: 0.3s;
 }
 #invitacion-catalogo .invitacion-catalogo-container {
   width: 100%;
@@ -486,6 +493,7 @@ body {
   overflow: hidden;
   position: relative;
   display: none;
+  transition: 0.3s;
 }
 #invitacion-catalogo-desktop img {
   -o-object-fit: cover;
@@ -530,6 +538,7 @@ body {
   justify-content: center;
   max-width: 500px;
   background-color: #2f2d2d;
+  transition: 0.3s;
 }
 #presentacion-marcas .presentacion-marcas-container {
   height: 100%;
@@ -631,6 +640,7 @@ body {
   max-width: 1300px;
   background-color: #FBF8F4;
   display: none;
+  transition: 0.3s;
 }
 #presentacion-marcas-desktop .presentacion-marcas-text-container-desktop {
   width: 100%;
@@ -714,11 +724,11 @@ body {
   width: 90vw;
   max-width: 1300px;
   border-radius: 20px;
-  margin-top: 40px;
+  height: 514px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FBF8F4;
+  transition: 0.3s;
 }
 #form-contacto-home .form-home-container {
   width: 50%;
@@ -727,17 +737,20 @@ body {
 }
 #form-contacto-home .form-home-container #form-inmar-home h4 {
   font-family: "Questrial", sans-serif;
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-size: 18px;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 #form-contacto-home .form-home-container #form-inmar-home input {
   width: 100%;
   height: 30px;
   margin-bottom: 14px;
-  border: 2px solid #2f2d2d;
+  border: 2px solid #FBF8F4;
   border-radius: 5px;
   padding: 5px;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 #form-contacto-home .form-home-container #form-inmar-home textarea {
   width: 100%;
@@ -745,6 +758,10 @@ body {
   border: 2px solid #2f2d2d;
   border-radius: 5px;
   padding: 5px;
+  resize: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 #form-contacto-home .form-home-container #form-inmar-home .form-btn-container {
   height: 150px;
@@ -757,25 +774,73 @@ body {
   width: 300px;
   border: none;
   border-radius: 10px;
-  background-color: #2f2d2d;
+  background-color: #FBF8F4;
   cursor: pointer;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 24px;
   font-weight: 800;
+  transition: 0.3s;
 }
-#form-contacto-home .contacto-home-container {
-  width: 50%;
+#form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn:hover {
+  background-color: #393737;
+  color: #FBF8F4;
 }
-#form-contacto-home .contacto-home-container .datos-contacto-home-container {
+#form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn:active {
+  transform: translateY(2px);
+  filter: drop-shadow(4px 4px 4px rgba(206, 206, 206, 0.9));
+}
+#form-contacto-home .datos-contacto-desktop {
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 60px;
+}
+#form-contacto-home .datos-contacto-desktop .datos-fm-desktop {
   width: 100%;
-  height: 50%;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 10px;
+}
+#form-contacto-home .datos-contacto-desktop .datos-fm-desktop h5 {
+  margin-bottom: 10px;
+}
+#form-contacto-home .datos-contacto-desktop .datos-jm-desktop {
+  width: 100%;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#form-contacto-home .datos-contacto-desktop .datos-jm-desktop h5 {
+  margin-bottom: 10px;
+}
+
+.form-contacto-titulo-desktop {
+  width: 90vw;
+  height: 100px;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.form-contacto-titulo-desktop h4 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 32px;
+  text-align: center;
 }
 
 #confian-en-nosotros {
@@ -791,6 +856,9 @@ body {
     display: none;
   }
   #form-contacto-home {
+    display: none;
+  }
+  .form-contacto-titulo-desktop {
     display: none;
   }
 }
@@ -832,6 +900,15 @@ body {
   #call-to-action-desktop {
     display: flex;
     margin-top: 120px;
+  }
+  #form-contacto-mobile-home {
+    display: none;
+  }
+  #form-contacto-mobile-obras {
+    display: none;
+  }
+  #form-contacto-mobile-productos {
+    display: none;
   }
 }
 #navbar {
@@ -982,16 +1059,18 @@ body {
 footer {
   height: 100px;
   width: 100%;
-  background-color: #FBF8F4;
+  background-color: #1F1E1E;
   position: absolute;
   bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid #FBF8F4;
 }
 footer h5 {
-  color: #2f2d2d;
-  font-family: "Mulish", sans-serif;
+  color: #FBF8F4;
+  font-family: "Questrial", sans-serif;
+  font-weight: 100;
 }
 
 * {
@@ -1131,6 +1210,115 @@ footer h5 {
   margin-bottom: 5px;
 }
 
+#obras-desktop .obras-titulo-container-desktop {
+  margin-top: 120px;
+  width: 90vw;
+  max-width: 1300px;
+  border-radius: 20px 20px 0 0;
+  border: 3px solid #FBF8F4;
+  border-bottom: none;
+  padding: 10px;
+  background-color: #2f2d2d;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 140px;
+}
+#obras-desktop .obras-titulo-container-desktop h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 80px;
+  margin: 0;
+}
+#obras-desktop .titulo-obras-container-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  background-color: #FBF8F4;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+}
+#obras-desktop .titulo-obras-container-desktop h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+#obras-desktop .titulo-obras-container-desktop h3 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+}
+#obras-desktop .obras-img-container-desktop {
+  width: 90vw;
+  height: 400px;
+  max-width: 1300px;
+  display: flex;
+  overflow: hidden;
+  border-left: 3px solid #FBF8F4;
+  border-right: 3px solid #FBF8F4;
+}
+#obras-desktop .obras-img-container-desktop img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#obras-desktop .descripcion-obra-container-desktop {
+  width: 90vw;
+  height: 300px;
+  max-width: 1300px;
+  background-color: #2f2d2d;
+  border: 3px solid #FBF8F4;
+  border-top: none;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+}
+#obras-desktop .descripcion-obra-container-desktop .descripcion-obra-text-container-desktop {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+#obras-desktop .descripcion-obra-container-desktop .descripcion-obra-text-container-desktop p {
+  height: 50%;
+  width: 100%;
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+}
+#obras-desktop .descripcion-obra-container-desktop .descripcion-obra-puntos-container-desktop {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+#obras-desktop .descripcion-obra-container-desktop .descripcion-obra-puntos-container-desktop h3 {
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+  color: #FBF8F4;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+  #obras-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #obras {
+    display: none;
+  }
+  #obras-desktop {
+    display: inline-block;
+  }
+}
 .productos-intro-container {
   margin-top: 60px;
   margin-bottom: 20px;
@@ -1522,7 +1710,7 @@ footer h5 {
 #form-contacto {
   width: 90%;
   max-width: 500px;
-  margin-top: 60px;
+  margin-top: 100px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -1607,6 +1795,270 @@ footer h5 {
   box-shadow: 2px 2px 4px grey;
 }
 
+#form-contacto-mobile-home {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#form-contacto-mobile-home .form-container {
+  width: 100%;
+}
+#form-contacto-mobile-home .form-container #form-titulo {
+  margin-bottom: 10px;
+}
+#form-contacto-mobile-home .form-container #form-titulo .form-call-to-action {
+  font-size: 16px;
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+}
+#form-contacto-mobile-home .form-container form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+#form-contacto-mobile-home .form-container form #time {
+  display: none;
+}
+#form-contacto-mobile-home .form-container form .data-input {
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+#form-contacto-mobile-home .form-container form .form-nombre {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-home .form-container form .form-mail {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-home .form-container form .form-tel {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-home .form-container form .form-mensaje {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-home .form-container form .data-input {
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FBF8F4;
+  font-size: 20px;
+}
+#form-contacto-mobile-home .form-container form #input-mensaje {
+  height: 100px;
+}
+#form-contacto-mobile-home .form-container form .form-btn-container {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+#form-contacto-mobile-home .form-container form .form-btn-container .form-btn {
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px grey;
+}
+
+#form-contacto-mobile-productos {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#form-contacto-mobile-productos .form-container {
+  width: 100%;
+}
+#form-contacto-mobile-productos .form-container #form-titulo {
+  margin-bottom: 10px;
+}
+#form-contacto-mobile-productos .form-container #form-titulo .form-call-to-action {
+  font-size: 16px;
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+}
+#form-contacto-mobile-productos .form-container form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+#form-contacto-mobile-productos .form-container form #time {
+  display: none;
+}
+#form-contacto-mobile-productos .form-container form .data-input {
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+#form-contacto-mobile-productos .form-container form .form-nombre {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-productos .form-container form .form-mail {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-productos .form-container form .form-tel {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-productos .form-container form .form-mensaje {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-productos .form-container form .data-input {
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FBF8F4;
+  font-size: 20px;
+}
+#form-contacto-mobile-productos .form-container form #input-mensaje {
+  height: 100px;
+}
+#form-contacto-mobile-productos .form-container form .form-btn-container {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+#form-contacto-mobile-productos .form-container form .form-btn-container .form-btn {
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px grey;
+}
+
+#form-contacto-mobile-obras {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#form-contacto-mobile-obras .form-container {
+  width: 100%;
+}
+#form-contacto-mobile-obras .form-container #form-titulo {
+  margin-bottom: 10px;
+}
+#form-contacto-mobile-obras .form-container #form-titulo .form-call-to-action {
+  font-size: 16px;
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+}
+#form-contacto-mobile-obras .form-container form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+#form-contacto-mobile-obras .form-container form #time {
+  display: none;
+}
+#form-contacto-mobile-obras .form-container form .data-input {
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+#form-contacto-mobile-obras .form-container form .form-nombre {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-obras .form-container form .form-mail {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-obras .form-container form .form-tel {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-obras .form-container form .form-mensaje {
+  font-weight: 200;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FBF8F4;
+}
+#form-contacto-mobile-obras .form-container form .data-input {
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FBF8F4;
+  font-size: 20px;
+}
+#form-contacto-mobile-obras .form-container form #input-mensaje {
+  height: 100px;
+}
+#form-contacto-mobile-obras .form-container form .form-btn-container {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+#form-contacto-mobile-obras .form-container form .form-btn-container .form-btn {
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px grey;
+}
+
 #datos-contacto {
   max-width: 500px;
   width: 100%;
@@ -1649,4 +2101,16 @@ footer h5 {
 #datos-contacto .datos-contacto .mail-ventas {
   margin-top: 25px;
   font-size: 28px;
+}
+
+@media screen and (min-width: 1000px) {
+  #form-contacto-mobile-home {
+    display: none;
+  }
+  #form-contacto-mobile-obras {
+    display: none;
+  }
+  #form-contacto-mobile-productos {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

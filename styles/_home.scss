@@ -51,7 +51,6 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     padding: 10px;
-    // height: 718px;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -61,6 +60,7 @@ body {
     border-radius: 20px;
     background-color: $color-2;
     max-width: 500px;
+    transition: .3s;
     .logo-home-container {        
         width: 95%;
         margin-bottom: 20px;
@@ -152,6 +152,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    transition: .3s;
     .call-to-action-desktop-logo-container {
         width: 60%;
         height: 100%;
@@ -206,7 +207,6 @@ body {
         }        
     }
 }
-
 #slider-obras {
     margin-top: 20px;
     height: 320px;
@@ -217,6 +217,7 @@ body {
     border: 2px solid $color-2;
     border-radius: 20px;
     max-width: 500px;
+    transition: .3s;
     .slider-obras-container {        
         width: 100%;
         height: 100%;
@@ -266,6 +267,7 @@ body {
     overflow: hidden;
     position: relative;
     display: none;
+    transition: .3s;
     img {
         object-fit: cover;
         width: 100%;
@@ -296,7 +298,6 @@ body {
         }
     }
 }
-
 #descripcion-empresa {
     margin-top: 20px;
     padding-top: 20px;
@@ -310,6 +311,7 @@ body {
     border-radius: 20px;
     max-width: 500px;
     background-color: $color-1;
+    transition: .3s;
     .descripcion-empresa-container {        
         width: 95%;
         height: 100%;
@@ -357,6 +359,7 @@ body {
     position: relative;
     display: none;
     background-color: $color-1;
+    transition: .3s;
     button {
         position: absolute;
         right: 40px;
@@ -421,6 +424,7 @@ body {
     border: 2px solid $color-2;
     border-radius: 20px;
     max-width: 500px;
+    transition: .3s;
     .invitacion-catalogo-container {        
         width: 100%;
         height: 100%;
@@ -470,6 +474,7 @@ body {
     overflow: hidden;
     position: relative;
     display: none;
+    transition: .3s;
     img {
         object-fit: cover;
         width: 100%;
@@ -512,6 +517,7 @@ body {
     justify-content: center;
     max-width: 500px;
     background-color: $color-1;
+    transition: .3s;
     .presentacion-marcas-container {        
         height: 100%;
         width: 95%;
@@ -612,6 +618,7 @@ body {
     max-width: 1300px;
     background-color: $color-2;
     display: none;
+    transition: .3s;
     .presentacion-marcas-text-container-desktop {
         width: 100%;
         padding: 10px;
@@ -692,31 +699,34 @@ body {
 }
 #form-contacto-home {
     width: 90vw;
-    max-width: 1300px;    
+    max-width: 1300px;
     border-radius: 20px;
-    margin-top: 40px;
+    height: 514px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: $color-2;
-    .form-home-container {
+    justify-content: center;    
+    transition: .3s;    
+    .form-home-container {        
         width: 50%;
         border-radius: 10px 0 0 10px;
         padding: 20px;
         #form-inmar-home {
             h4 {
                 font-family: $font-3;
-                color: $color-1;
+                color: $color-2;
                 font-size: 18px;
-                margin-bottom: 2px;
+                margin-bottom: 4px;                
             }
             input {
                 width: 100%;
                 height: 30px;
                 margin-bottom: 14px;
-                border: 2px solid $color-1;
+                border: 2px solid $color-2;
                 border-radius: 5px;
                 padding: 5px;
+                font-family: $font-2;
+                font-size: 20px;
+                font-weight: 600;
             }
             textarea {
                 width: 100%;
@@ -724,6 +734,10 @@ body {
                 border: 2px solid $color-1;
                 border-radius: 5px;
                 padding: 5px;
+                resize: none;
+                font-family: $font-2;
+                font-size: 20px;
+                font-weight: 600;
             }
             .form-btn-container {
                 height: 150px;                
@@ -735,28 +749,76 @@ body {
                     width: 300px;
                     border: none;
                     border-radius: 10px;
-                    background-color: $color-1;
+                    background-color: $color-2;
                     cursor: pointer;
                     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));                    
-                    color: $color-2;
+                    color: $color-1;
                     font-family: $font-1;
                     font-size: 24px;
                     font-weight: 800;
+                    transition: .3s;
+                }
+                .form-btn:hover {
+                    background-color: #393737;
+                    color: $color-2;
+                }
+                .form-btn:active {
+                    transform: translateY(2px);
+                    filter: drop-shadow(4px 4px 4px rgba(206, 206, 206, 0.9)); 
                 }
             }
         }
     }
-    .contacto-home-container {
-        width: 50%;
-        .datos-contacto-home-container {
+    .datos-contacto-desktop {
+        // width: 50%;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 60px;
+        .datos-fm-desktop {
             width: 100%;
-            height: 50%;
+            color: $color-2;
+            font-family: $font-1;
+            height: 120px;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
-            padding: 10px;
+            h5 {
+                margin-bottom: 10px;
+            }
         }
+        .datos-jm-desktop {
+            width: 100%;
+            color: $color-2;
+            font-family: $font-1;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;            
+            h5 {
+                margin-bottom: 10px;
+            }    
+        }
+    }
+}
+.form-contacto-titulo-desktop {
+    width: 90vw;    
+    height: 100px;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    h4 {
+        color: $color-2;
+        font-family: $font-1;
+        font-size: 32px;
+        text-align: center;
     }
 }
 #confian-en-nosotros {
@@ -772,6 +834,9 @@ body {
         display: none;
     }
     #form-contacto-home {
+        display: none;
+    }
+    .form-contacto-titulo-desktop {
         display: none;
     }
 }
@@ -814,5 +879,14 @@ body {
     #call-to-action-desktop {
         display: flex;
         margin-top: 120px;
+    }
+    #form-contacto-mobile-home {
+        display: none;
+    }
+    #form-contacto-mobile-obras {
+        display: none;
+    }
+    #form-contacto-mobile-productos {
+        display: none;
     }
 }

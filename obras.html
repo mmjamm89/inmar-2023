@@ -66,6 +66,7 @@
         
         <!-- MAIN CONTENT -->
 
+        <!-- OBRAS MOBILE -->
         <section id="obras">
             <div class="obras-titulo-container">
                 <h1>OBRAS</h1>
@@ -117,17 +118,86 @@
             </div>
         </section>
 
-        <section id="form-contacto">
+        <!-- OBRAS DESKTOP -->
+        <section id="obras-desktop">
+            <div class="obras-titulo-container-desktop">
+                <h1>OBRAS</h1>
+            </div>
+            <div class="titulo-obras-container-desktop">                
+                <h1>Costa Garzon</h1>
+                <h3>Punta del Este</h3>
+            </div>
+            <div class="obras-img-container-desktop">
+                <img src="Assets/photo-1469389335181-2198b4caa734.avif" alt="">
+                <img src="Assets/photo-1469389335181-2198b4caa734.avif" alt="">
+                <img src="Assets/photo-1469389335181-2198b4caa734.avif" alt="">
+                <img src="Assets/photo-1469389335181-2198b4caa734.avif" alt="">
+            </div>
+            <div class="descripcion-obra-container-desktop">
+                <div class="descripcion-obra-text-container-desktop">
+                    <p>Breve descripción del proyecto. Describir tipo de trabajo, cliente, etc.
+                        En dos parráfos incluir la mayor cantidad de información</p>
+                    <p>Breve descripción del proyecto. Describir tipo de trabajo, cliente, etc.
+                        En dos parráfos incluir la mayor cantidad de información</p>
+                </div>
+                <div class="descripcion-obra-puntos-container-desktop">
+                    <h3>Obra: hormigón</h3>
+                    <h3>40000m2</h3>
+                    <h3>Cliente: Agroland</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- DESKTOP SECCION CONTACTO -->
+        <div class="form-contacto-titulo-desktop">
+            <h4>Contáctenos para solicitar cotización. Nos comunicaremos a la brevedad.</h4>
+        </div>
+        <section id="form-contacto-home" class="form-contacto-home">
+            <div class="form-home-container">
+                   <form
+                       action=""
+                       id="form-inmar-home"
+                       method="post"
+                       target="_blank">
+                       <h4 class="form-nombre">Nombre/Empresa</h4>
+                       <input class="data-input" type="text" name="data[nombre]" required>
+                       <h4 class="form-mail">Email</h4>
+                       <input class="data-input" type="mail" name="data[email]" class="" required>
+                       <h4 class="form-tel">Teléfono</h4>
+                       <input class="data-input" type="tel" name="data[telefono]" required>
+                       <h4 class="form-mensaje">Mensaje</h4>
+                       <textarea class="data-input" type="text" name="data[mensaje]" id="input-mensaje" required></textarea>
+                       <div class="form-btn-container">
+                           <button class="form-btn" type="submit" >Enviar</button>        
+                       </div>                    
+                   </form>                
+            </div>            
+            <div class="datos-contacto-desktop">
+                <div class="datos-fm-desktop">
+                    <h1>Ing. Fernando Martínez</h1>
+                    <h5>CEO - Director Ejecutivo</h5>
+                    <h3>fmartinez@inmar.com.uy</h3>
+                </div>
+                <div class="datos-jm-desktop">
+                    <h1>Juan Martínez</h1>
+                    <h5>Administración - IT</h5>
+                    <h3>jmartinez@inmar.com.uy</h3>
+                </div>                               
+            </div>
+            
+            
+        </section>
+        <!-- MOBILE CONTACTO -->
+        <section id="form-contacto-mobile-obras">                
             <div class="form-container">
                 <div id="form-titulo">
                     <h1 class="form-call-to-action">Contáctenos para solicitar cotización. Nos comunicaremos a la brevedad.</h1>
                 </div>
                 <form
-                    action="https://sheetdb.io/api/v1/lko1c5fo1iop2"
+                    action=""
                     id="form-inmar"
-                    method="post">
-                    
-                    <input name="data[timestamp]" id="time" value=""></p>
+                    method="post"
+                    target="_blank">
 
                     <h4 class="form-nombre">Nombre/Empresa</h4>
                     <input class="data-input" type="text" name="data[nombre]">
@@ -138,7 +208,7 @@
                     <h4 class="form-mensaje">Mensaje</h4>
                     <textarea class="data-input" type="text" name="data[mensaje]" id="input-mensaje"></textarea>
                     <div class="form-btn-container">
-                        <button class="form-btn" type="submit">Enviar</button>        
+                        <button class="form-btn" type="submit" >Enviar</button>        
                     </div>                    
                 </form>
             </div>

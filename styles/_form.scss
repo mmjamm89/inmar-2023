@@ -28,7 +28,7 @@ $font-4: 'Epilogue', sans-serif;
 #form-contacto {
     width: 90%;
     max-width: 500px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -113,7 +113,270 @@ $font-4: 'Epilogue', sans-serif;
         }        
     }
 }
-
+#form-contacto-mobile-home {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;    
+    .form-container {
+        width: 100%;
+        #form-titulo {
+            margin-bottom: 10px;
+            .form-call-to-action {
+                font-size: 16px;
+                color: $color-2;
+                font-family: $font-2;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-2;
+            #time {
+                display: none;
+            }
+            .data-input {
+                margin-bottom: 15px;
+                margin-top: 3px;
+            }
+            .form-nombre {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-mail {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-tel {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-mensaje {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .data-input {
+                height: 35px;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: $color-2;
+                font-size: 20px;
+            }
+            #input-mensaje {
+                height: 100px;
+            }
+            .form-btn-container {                
+                height: 50px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                align-content: center;
+                cursor: pointer;
+                .form-btn {                    
+                    width: 140px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: none;
+                    font-family: $font-1;                    
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    box-shadow: 2px 2px 4px grey;
+                }
+            }
+            
+        }        
+    }
+}
+#form-contacto-mobile-productos {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;    
+    .form-container {
+        width: 100%;
+        #form-titulo {
+            margin-bottom: 10px;
+            .form-call-to-action {
+                font-size: 16px;
+                color: $color-2;
+                font-family: $font-2;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-2;
+            #time {
+                display: none;
+            }
+            .data-input {
+                margin-bottom: 15px;
+                margin-top: 3px;
+            }
+            .form-nombre {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-mail {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-tel {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-mensaje {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .data-input {
+                height: 35px;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: $color-2;
+                font-size: 20px;
+            }
+            #input-mensaje {
+                height: 100px;
+            }
+            .form-btn-container {                
+                height: 50px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                align-content: center;
+                cursor: pointer;
+                .form-btn {                    
+                    width: 140px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: none;
+                    font-family: $font-1;                    
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    box-shadow: 2px 2px 4px grey;
+                }
+            }
+            
+        }        
+    }
+}
+#form-contacto-mobile-obras {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;    
+    .form-container {
+        width: 100%;
+        #form-titulo {
+            margin-bottom: 10px;
+            .form-call-to-action {
+                font-size: 16px;
+                color: $color-2;
+                font-family: $font-2;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-2;
+            #time {
+                display: none;
+            }
+            .data-input {
+                margin-bottom: 15px;
+                margin-top: 3px;
+            }
+            .form-nombre {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-mail {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-tel {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .form-mensaje {
+                font-weight: 200;
+                font-size: 16px;
+                font-weight: bold;
+                color: $color-2;
+            }
+            .data-input {
+                height: 35px;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: $color-2;
+                font-size: 20px;
+            }
+            #input-mensaje {
+                height: 100px;
+            }
+            .form-btn-container {                
+                height: 50px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                align-content: center;
+                cursor: pointer;
+                .form-btn {                    
+                    width: 140px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: none;
+                    font-family: $font-1;                    
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    box-shadow: 2px 2px 4px grey;
+                }
+            }
+            
+        }        
+    }
+}
 #datos-contacto {
     max-width: 500px;
     width: 100%;
@@ -157,5 +420,17 @@ $font-4: 'Epilogue', sans-serif;
             margin-top: 25px;
             font-size: 28px;
         }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #form-contacto-mobile-home {
+        display: none;
+    }
+    #form-contacto-mobile-obras {
+        display: none;
+    }
+    #form-contacto-mobile-productos {
+        display: none;
     }
 }
