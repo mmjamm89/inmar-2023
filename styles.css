@@ -777,7 +777,7 @@ body {
   background-color: #2f2d2d;
   cursor: pointer;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   font-size: 24px;
   font-weight: 800;
@@ -802,7 +802,7 @@ body {
 }
 #form-contacto-home .datos-contacto-desktop .datos-fm-desktop {
   width: 100%;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   height: 120px;
   display: flex;
@@ -815,7 +815,7 @@ body {
 }
 #form-contacto-home .datos-contacto-desktop .datos-jm-desktop {
   width: 100%;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   height: 120px;
   display: flex;
@@ -837,7 +837,7 @@ body {
   margin-top: 60px;
 }
 .form-contacto-titulo-desktop h4 {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 32px;
   text-align: center;
@@ -1048,7 +1048,7 @@ body {
     justify-content: flex-end;
   }
   .desktop-nav .desktop-nav-links-container .desktop-nav-link {
-    color: #FBF8F4;
+    color: #1F1E1E;
     text-decoration: none;
     font-family: "Lexend Tera", sans-serif;
     margin-left: 30px;
@@ -1218,6 +1218,7 @@ footer h5 {
   align-items: flex-start;
   justify-content: flex-start;
   height: 140px;
+  border: 3px solid #2f2d2d;
 }
 #obras-desktop .obras-titulo-container-desktop h1 {
   font-family: "Lexend Tera", sans-serif;
@@ -1235,6 +1236,8 @@ footer h5 {
   align-items: flex-start;
   justify-content: center;
   padding: 10px;
+  border-left: 3px solid #2f2d2d;
+  border-right: 3px solid #2f2d2d;
 }
 #obras-desktop .titulo-obras-container-desktop h1 {
   font-family: "Lexend Tera", sans-serif;
@@ -1253,8 +1256,8 @@ footer h5 {
   max-width: 1300px;
   display: flex;
   overflow: hidden;
-  border-left: 3px solid #FBF8F4;
-  border-right: 3px solid #FBF8F4;
+  border-left: 3px solid #2f2d2d;
+  border-right: 3px solid #2f2d2d;
 }
 #obras-desktop .obras-img-container-desktop img {
   height: 100%;
@@ -1266,7 +1269,7 @@ footer h5 {
   height: 300px;
   max-width: 1300px;
   background-color: #2f2d2d;
-  border: 3px solid #FBF8F4;
+  border: 3px solid #2f2d2d;
   border-top: none;
   border-radius: 0 0 20px 20px;
   display: flex;
@@ -1334,14 +1337,14 @@ footer h5 {
 }
 .productos-intro-container-desktop p {
   font-family: "Lexend Tera", sans-serif;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-size: 20px;
 }
 
 .productos-marcas-container {
   max-width: 500px;
   width: 90vw;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   display: flex;
   flex-direction: column;
   border-bottom: 3px solid #2f2d2d;
@@ -1418,20 +1421,20 @@ footer h5 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border-radius: 20px 20px 0 0;
   padding: 10px;
 }
 .productos-marcas-container-desktop .productos-marcas-titulo-container-desktop h1 {
   font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
+  color: #FBF8F4;
   text-transform: uppercase;
 }
 .productos-marcas-container-desktop .productos-marcas-slider-container-desktop {
   width: 100%;
   height: 340px;
-  border-left: 3px solid #FBF8F4;
-  border-right: 3px solid #FBF8F4;
+  border-left: 3px solid #2f2d2d;
+  border-right: 3px solid #2f2d2d;
 }
 .productos-marcas-container-desktop .productos-marcas-slider-container-desktop img {
   height: 100%;
@@ -1442,12 +1445,12 @@ footer h5 {
 .productos-marcas-container-desktop .productos-marcas-descripcion-container-desktop {
   width: 100%;
   padding: 10px;
-  border-left: 3px solid #FBF8F4;
-  border-right: 3px solid #FBF8F4;
+  border-left: 3px solid #2f2d2d;
+  border-right: 3px solid #2f2d2d;
 }
 .productos-marcas-container-desktop .productos-marcas-descripcion-container-desktop p {
   font-family: "Questrial", sans-serif;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-size: 20px;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop {
@@ -1459,6 +1462,7 @@ footer h5 {
   align-items: center;
   justify-content: flex-start;
   border-radius: 0 0 20px 20px;
+  border: 3px solid #2f2d2d;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop {
   width: 60%;

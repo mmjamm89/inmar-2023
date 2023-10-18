@@ -752,7 +752,7 @@ body {
                     background-color: $color-1;
                     cursor: pointer;
                     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));                    
-                    color: $color-1;
+                    color: $color-2;
                     font-family: $font-1;
                     font-size: 24px;
                     font-weight: 800;
@@ -780,7 +780,7 @@ body {
         padding-top: 60px;
         .datos-fm-desktop {
             width: 100%;
-            color: $color-2;
+            color: $color-1;
             font-family: $font-1;
             height: 120px;
             display: flex;
@@ -793,7 +793,7 @@ body {
         }
         .datos-jm-desktop {
             width: 100%;
-            color: $color-2;
+            color: $color-1;
             font-family: $font-1;
             height: 120px;
             display: flex;
@@ -815,7 +815,7 @@ body {
     justify-content: center;
     margin-top: 60px;
     h4 {
-        color: $color-2;
+        color: $color-1;
         font-family: $font-1;
         font-size: 32px;
         text-align: center;
