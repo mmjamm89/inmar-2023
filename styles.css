@@ -58,9 +58,6 @@ body {
 
 #call-to-action {
   margin-top: 70px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding: 10px;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -125,7 +122,7 @@ body {
 }
 #call-to-action .slider-home-container {
   border-radius: 5px;
-  width: 95%;
+  width: 100%;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -1015,9 +1012,6 @@ body {
     height: 100px;
     width: 100vw;
   }
-  .navbar {
-    max-width: 1300px;
-  }
   #navbar .navbar .logo {
     display: none;
   }
@@ -1363,7 +1357,7 @@ footer h5 {
   justify-content: center;
 }
 .productos-marcas-container .productos-marcas-titulo-container h1 {
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   height: 80px;
   font-size: 40px;
@@ -1373,7 +1367,7 @@ footer h5 {
   justify-content: flex-start;
 }
 .productos-marcas-container .productos-marcas-titulo-container h2 {
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   font-size: 16px;
 }
