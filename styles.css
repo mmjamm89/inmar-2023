@@ -43,7 +43,7 @@
 }
 
 body {
-  background-color: #1F1E1E;
+  background-color: #FBF8F4;
   overflow-x: hidden;
 }
 
@@ -737,7 +737,7 @@ body {
 }
 #form-contacto-home .form-home-container #form-inmar-home h4 {
   font-family: "Questrial", sans-serif;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-size: 18px;
   margin-bottom: 4px;
 }
@@ -745,7 +745,7 @@ body {
   width: 100%;
   height: 30px;
   margin-bottom: 14px;
-  border: 2px solid #FBF8F4;
+  border: 2px solid #2f2d2d;
   border-radius: 5px;
   padding: 5px;
   font-family: "Mulish", sans-serif;
@@ -774,7 +774,7 @@ body {
   width: 300px;
   border: none;
   border-radius: 10px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   cursor: pointer;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
   color: #2f2d2d;
@@ -919,7 +919,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 99;
-  background-color: #1F1E1E;
+  background-color: #FBF8F4;
 }
 #navbar .navbar {
   display: flex;
@@ -941,11 +941,11 @@ body {
   width: 100%;
   min-height: 100vh;
   z-index: 98;
-  background-color: #1F1E1E;
+  background-color: #FBF8F4;
   transition: 1s;
 }
 .mobile-nav a {
-  color: #FBF8F4;
+  color: #1F1E1E;
 }
 
 .mobile-nav.is-active {
@@ -966,7 +966,7 @@ body {
   display: block;
   width: 40px;
   height: 5px;
-  background-color: #FBF8F4;
+  background-color: #1F1E1E;
   margin: 6px 0px;
   border-radius: 10px;
   transition: 0.4s;
@@ -1106,7 +1106,7 @@ footer h5 {
   justify-content: flex-start;
 }
 #obras .obras-titulo-container h1 {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 60px;
   margin: 0;
@@ -1122,7 +1122,7 @@ footer h5 {
   max-width: 500px;
 }
 #obras .obras-intro-container p {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
 }
@@ -1133,6 +1133,7 @@ footer h5 {
   align-items: center;
   justify-content: flex-start;
   border-radius: 20px;
+  border: 3px solid #2f2d2d;
   margin-bottom: 20px;
 }
 #obras .obra-container .obra-titulo-container {
@@ -1162,9 +1163,6 @@ footer h5 {
 #obras .obra-container .obra-imgslider-container {
   width: 100%;
   height: 200px;
-  border-bottom: 2px solid #FBF8F4;
-  border-left: 2px solid #FBF8F4;
-  border-right: 2px solid #FBF8F4;
 }
 #obras .obra-container .obra-imgslider-container img {
   width: 100%;
@@ -1178,9 +1176,6 @@ footer h5 {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border-left: 2px solid #FBF8F4;
-  border-right: 2px solid #FBF8F4;
-  border-bottom: 2px solid #FBF8F4;
   border-radius: 0 0 20px 20px;
 }
 #obras .obra-container .obra-descripcion-container .obra-descripcion-1 {
@@ -1191,7 +1186,7 @@ footer h5 {
   justify-content: center;
 }
 #obras .obra-container .obra-descripcion-container .obra-descripcion-1 p {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
 }
 #obras .obra-container .obra-descripcion-container .obra-descripcion-2 {
@@ -1204,7 +1199,7 @@ footer h5 {
   justify-content: center;
 }
 #obras .obra-container .obra-descripcion-container .obra-descripcion-2 p {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-weight: 600;
   margin-bottom: 5px;
@@ -1328,7 +1323,7 @@ footer h5 {
   max-width: 500px;
 }
 .productos-intro-container p {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
 }
 
@@ -1349,7 +1344,10 @@ footer h5 {
   background-color: #FBF8F4;
   display: flex;
   flex-direction: column;
-  border-bottom: 2px solid #FBF8F4;
+  border-bottom: 3px solid #2f2d2d;
+  border-top: 3px solid #2f2d2d;
+  border-left: 3px solid #2f2d2d;
+  border-right: 3px solid #2f2d2d;
   border-radius: 20px;
   margin-bottom: 20px;
 }
@@ -1380,9 +1378,6 @@ footer h5 {
   width: 100%;
   height: 300px;
   background-color: #2f2d2d;
-  border-left: 2px solid #FBF8F4;
-  border-right: 2px solid #FBF8F4;
-  border-bottom: 2px solid #FBF8F4;
 }
 .productos-marcas-container .productos-marcas-slider-container img {
   width: 100%;
@@ -1398,9 +1393,9 @@ footer h5 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-left: 2px solid #FBF8F4;
-  border-right: 2px solid #FBF8F4;
-  border-radius: 0 0 20px 20px;
+  border-left: 3px solid #2f2d2d;
+  border-right: 3px solid #2f2d2d;
+  border-radius: 0 0 10px 10px;
 }
 .productos-marcas-container .productos-marcas-descripcion-container p {
   color: #FBF8F4;
@@ -1725,7 +1720,7 @@ footer h5 {
 }
 #form-contacto .form-container #form-titulo .form-call-to-action {
   font-size: 16px;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
 }
 #form-contacto .form-container form {
@@ -1744,25 +1739,25 @@ footer h5 {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .form-mail {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .form-tel {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .form-mensaje {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .data-input {
   height: 35px;
@@ -1813,7 +1808,7 @@ footer h5 {
 }
 #form-contacto-mobile-home .form-container #form-titulo .form-call-to-action {
   font-size: 16px;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
 }
 #form-contacto-mobile-home .form-container form {
@@ -1838,19 +1833,19 @@ footer h5 {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-home .form-container form .form-tel {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-home .form-container form .form-mensaje {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-home .form-container form .data-input {
   height: 35px;
@@ -1901,7 +1896,7 @@ footer h5 {
 }
 #form-contacto-mobile-productos .form-container #form-titulo .form-call-to-action {
   font-size: 16px;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
 }
 #form-contacto-mobile-productos .form-container form {
@@ -1920,25 +1915,25 @@ footer h5 {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-productos .form-container form .form-mail {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-productos .form-container form .form-tel {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-productos .form-container form .form-mensaje {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-productos .form-container form .data-input {
   height: 35px;
@@ -1989,7 +1984,7 @@ footer h5 {
 }
 #form-contacto-mobile-obras .form-container #form-titulo .form-call-to-action {
   font-size: 16px;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
 }
 #form-contacto-mobile-obras .form-container form {
@@ -2008,25 +2003,25 @@ footer h5 {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-obras .form-container form .form-mail {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-obras .form-container form .form-tel {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-obras .form-container form .form-mensaje {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-mobile-obras .form-container form .data-input {
   height: 35px;
@@ -2070,7 +2065,7 @@ footer h5 {
 }
 #datos-contacto .datos-contacto {
   width: 100%;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Questrial", sans-serif;
 }
 #datos-contacto .datos-contacto .datos-fm {
