@@ -43,7 +43,7 @@
 }
 
 body {
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   overflow-x: hidden;
 }
 
@@ -63,9 +63,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border: 1px solid #FBF8F4;
+  border: 1px solid #2f2d2d;
   border-radius: 20px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   max-width: 500px;
   transition: 0.3s;
 }
@@ -79,7 +79,7 @@ body {
 #call-to-action .text-civiles-container .text-home {
   font-family: "Lexend Tera", sans-serif;
   font-size: 16px;
-  color: #2f2d2d;
+  color: #FBF8F4;
   margin-left: 0;
   margin-top: 0;
   margin-right: 0;
@@ -92,7 +92,7 @@ body {
 #call-to-action .text-productos-container .text-productos {
   font-family: "Lexend Tera", sans-serif;
   font-size: 16px;
-  color: #2f2d2d;
+  color: #FBF8F4;
   margin-left: 0;
   margin-top: 0;
   margin-right: 0;
@@ -109,7 +109,7 @@ body {
   margin-bottom: 30px;
   width: 300px;
   height: 63px;
-  background-color: #2f2d2d;
+  background-color: #FBF8F4;
   border: none;
   border-radius: 5px;
   filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.9));
@@ -117,7 +117,7 @@ body {
 #call-to-action .home-button-container .button-home a {
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-size: 24px;
 }
 #call-to-action .slider-home-container {
@@ -152,67 +152,42 @@ body {
 #call-to-action-desktop {
   width: 90vw;
   max-width: 1300px;
-  height: 400px;
-  background-color: #FBF8F4;
+  height: 300px;
+  background-color: #2f2d2d;
   border-radius: 20px;
   margin-top: 100px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 10px;
   transition: 0.3s;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container {
-  width: 60%;
-  height: 100%;
+  width: 100%;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-logo-container {
   width: 100%;
-  height: 50%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 5px;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-logo-container svg {
-  width: 90%;
+  width: 800px;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container {
+  margin-top: 20px;
   width: 100%;
-  height: 50%;
-}
-#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-civiles-container-desktop {
-  width: 100%;
-  height: 50%;
-}
-#call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-civiles-container-desktop .text-home-desktop {
-  font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
-  font-size: 30px;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-productos-container-desktop {
   width: 100%;
-  height: 50%;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-productos-container-desktop .text-productos-desktop {
   font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
-  font-size: 24px;
-}
-#call-to-action-desktop .call-to-action-desktop-slider-container {
-  width: 40%;
-  height: 100%;
-  border-radius: 0 10px 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#call-to-action-desktop .call-to-action-desktop-slider-container .desktop-slider-container {
-  height: 90%;
-  width: 90%;
-  color: #2f2d2d;
-  border-radius: 10px;
-  border: solid;
+  color: #FBF8F4;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 #slider-obras {
@@ -222,7 +197,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #FBF8F4;
+  border: 2px solid #2f2d2d;
   border-radius: 20px;
   max-width: 500px;
   transition: 0.3s;
@@ -251,7 +226,7 @@ body {
 #slider-obras .slider-obras-container .slider-obras-button-container .slider-obras-button {
   height: 50px;
   width: 300px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border: none;
   border-radius: 5px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
@@ -260,54 +235,8 @@ body {
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
   font-weight: bold;
-  color: #2f2d2d;
-  font-size: 20px;
-}
-
-#slider-obras-desktop {
-  width: 90vw;
-  max-width: 1300px;
-  height: 300px;
-  border: 2px solid #FBF8F4;
-  margin-top: 20px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-  display: none;
-  transition: 0.3s;
-}
-#slider-obras-desktop img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-#slider-obras-desktop .boton-obras-desktop {
-  position: absolute;
-  right: 40px;
-  bottom: 20px;
-  height: 75px;
-  width: 300px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-}
-#slider-obras-desktop .boton-obras-desktop a {
-  text-decoration: none;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-}
-#slider-obras-desktop .boton-obras-desktop:hover {
-  background-color: #2f2d2d;
-}
-#slider-obras-desktop .boton-obras-desktop:hover a {
   color: #FBF8F4;
+  font-size: 20px;
 }
 
 #descripcion-empresa {
@@ -319,10 +248,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #FBF8F4;
+  border: 2px solid #2f2d2d;
   border-radius: 20px;
   max-width: 500px;
-  background-color: #2f2d2d;
+  background-color: #FBF8F4;
   transition: 0.3s;
 }
 #descripcion-empresa .descripcion-empresa-container {
@@ -330,13 +259,13 @@ body {
   height: 100%;
 }
 #descripcion-empresa .descripcion-empresa-container .descripcion-empresa-text {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 20px;
 }
 #descripcion-empresa .descripcion-empresa-container .descripcion-empresa-mkt {
   margin-top: 20px;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 25px;
   font-weight: bold;
@@ -350,7 +279,7 @@ body {
 #descripcion-empresa .descripcion-empresa-container .descripcion-empresa-button-container .descripcion-empresa-button {
   height: 50px;
   width: 300px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border: none;
   border-radius: 5px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
@@ -359,7 +288,7 @@ body {
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
   font-weight: bold;
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-size: 20px;
 }
 
@@ -367,66 +296,229 @@ body {
   width: 90vw;
   max-width: 1300px;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   position: relative;
   display: none;
   background-color: #2f2d2d;
+  border-radius: 4px solid #FBF8F4;
+  border: 4px solid #FBF8F4;
+  overflow: hidden;
   transition: 0.3s;
 }
-#descripcion-empresa-desktop button {
-  position: absolute;
-  right: 40px;
-  bottom: 20px;
-  height: 75px;
-  width: 300px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-}
-#descripcion-empresa-desktop button a {
-  text-decoration: none;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-}
-#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop {
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-titulo {
   width: 100%;
-  padding: 10px;
   display: flex;
+  height: 75px;
   align-items: center;
   justify-content: flex-start;
+  padding-left: 20px;
+  background-color: #FBF8F4;
+  border: 4px solid #FBF8F4;
 }
-#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop p {
-  color: #FBF8F4;
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-titulo h1 {
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop {
-  padding: 10px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop {
-  width: 100%;
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-descripcion {
+  padding-left: 20px;
+  background-color: #2f2d2d;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop .descripcion-empresa-text {
-  width: 70%;
-  height: 100%;
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-descripcion p {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 20px;
+}
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-slogan {
+  padding-left: 20px;
+  height: 160px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-#descripcion-empresa-desktop .descripcion-empresa-text-button-container-desktop .descripcion-empresa-text h1 {
+#descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-slogan h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.marcas-home-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  margin-bottom: 20px;
+  background-color: #FBF8F4;
+  border-radius: 20px;
+  position: relative;
+}
+.marcas-home-desktop .marcas-home-desktop-img {
+  width: 220px;
+  border-radius: 12px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.marcas-home-desktop .marcas-home-desktop-titulo {
+  width: 100%;
+  height: 100px;
+  border-bottom: 3px solid #2f2d2d;
+  display: flex;
+}
+.marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-logo-container {
+  padding-left: 20px;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: justify-content;
+}
+.marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-logo-container .marcas-home-desktop-logo {
+  width: 100%;
+  border-radius: 10px;
+}
+.marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-titulo-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-titulo-text h1 {
+  font-size: 28px;
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+  color: #2f2d2d;
+}
+.marcas-home-desktop .marcas-home-desktop-descripcion-container {
+  width: 74%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 150px;
+  padding: 20px;
+}
+.marcas-home-desktop .marcas-home-desktop-descripcion-container p {
+  color: #2f2d2d;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  text-transform: none;
+}
+.marcas-home-desktop .marcas-home-desktop-button-container {
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 29px;
+}
+.marcas-home-desktop .marcas-home-desktop-button-container button {
+  height: 80px;
+  width: 400px;
+  background-color: #2f2d2d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+}
+.marcas-home-desktop .marcas-home-desktop-button-container button h1 {
   color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+}
+
+#home-desktop-slogans {
+  width: 90vw;
+  max-width: 1300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#home-desktop-slogans .home-desktop-envios {
+  font-size: 40px;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+}
+#home-desktop-slogans .home-desktop-precios {
+  font-size: 40px;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+}
+#home-desktop-slogans .home-desktop-constructores {
+  font-size: 50px;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+}
+
+#home-desktop-obras {
+  width: 90vw;
+  max-width: 1300px;
+  border: 4px solid #FBF8F4;
+  border-radius: 20px;
+  padding: 20px;
+}
+#home-desktop-obras .home-desktop-obras-descripcion {
+  margin-bottom: 40px;
+}
+#home-desktop-obras .home-desktop-obras-descripcion h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  font-size: 24px;
+  text-transform: none;
+  font-weight: 400;
+}
+#home-desktop-obras .home-desktop-obras-call-to {
+  display: flex;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-text {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  width: 70%;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-text h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a {
+  width: 100%;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button {
+  cursor: pointer;
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button h1 {
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+  color: #2f2d2d;
+  font-weight: bold;
   font-size: 30px;
 }
 
@@ -434,7 +526,7 @@ body {
   margin-top: 20px;
   height: 320px;
   width: 90vw;
-  border: 2px solid #FBF8F4;
+  border: 2px solid #2f2d2d;
   border-radius: 20px;
   max-width: 500px;
   transition: 0.3s;
@@ -463,7 +555,7 @@ body {
 #invitacion-catalogo .invitacion-catalogo-container .invitacion-catalogo-button-container .invitacion-catalogo-button {
   height: 50px;
   width: 300px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border: none;
   border-radius: 5px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
@@ -472,60 +564,14 @@ body {
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
   font-weight: bold;
-  color: #2f2d2d;
-  font-size: 16px;
-}
-
-#invitacion-catalogo-desktop {
-  width: 90vw;
-  max-width: 1300px;
-  height: 300px;
-  border: 2px solid #FBF8F4;
-  margin-top: 20px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-  display: none;
-  transition: 0.3s;
-}
-#invitacion-catalogo-desktop img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop {
-  position: absolute;
-  right: 40px;
-  bottom: 20px;
-  height: 75px;
-  width: 300px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-}
-#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop a {
-  text-decoration: none;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-}
-#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop:hover {
-  background-color: #2f2d2d;
-}
-#invitacion-catalogo-desktop .invitacion-catalogo-boton-desktop:hover a {
   color: #FBF8F4;
+  font-size: 16px;
 }
 
 #presentacion-marcas {
   margin-top: 20px;
   width: 90vw;
-  border: 2px solid #FBF8F4;
+  border: 2px solid #2f2d2d;
   border-radius: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -533,7 +579,7 @@ body {
   align-items: center;
   justify-content: center;
   max-width: 500px;
-  background-color: #2f2d2d;
+  background-color: #FBF8F4;
   transition: 0.3s;
 }
 #presentacion-marcas .presentacion-marcas-container {
@@ -542,7 +588,7 @@ body {
 }
 #presentacion-marcas .presentacion-marcas-container .presentacion-marcas-intro-text {
   font-family: "Lexend Tera", sans-serif;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-size: 14px;
 }
 #presentacion-marcas .presentacion-marcas-container .marcas-container {
@@ -561,7 +607,7 @@ body {
 #presentacion-marcas .presentacion-marcas-container .marcas-container .marcas .marcas-logo-container {
   height: 40%;
   width: 100%;
-  color: #FBF8F4;
+  color: #2f2d2d;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -570,7 +616,7 @@ body {
 }
 #presentacion-marcas .presentacion-marcas-container .marcas-container .marcas .marcas-home-descripcion {
   font-family: "Lexend Tera", sans-serif;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-size: 16px;
   width: 100%;
   height: 30%;
@@ -598,7 +644,7 @@ body {
 #presentacion-marcas .presentacion-marcas-container .marcas-container .marcas .marcas-boton-home-container .marcas-boton-link-home a {
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-weight: 600;
 }
 #presentacion-marcas .presentacion-marcas-container .presentacion-marcas-button-container {
@@ -611,7 +657,7 @@ body {
 #presentacion-marcas .presentacion-marcas-container .presentacion-marcas-button-container .presentacion-marcas-button {
   height: 75px;
   width: 300px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border: none;
   border-radius: 5px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
@@ -625,103 +671,18 @@ body {
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
   font-weight: bold;
-  color: #2f2d2d;
-  font-size: 20px;
-}
-
-#presentacion-marcas-desktop {
-  margin-top: 20px;
-  border-radius: 20px;
-  width: 90vw;
-  max-width: 1300px;
-  background-color: #FBF8F4;
-  display: none;
-  transition: 0.3s;
-}
-#presentacion-marcas-desktop .presentacion-marcas-text-container-desktop {
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-#presentacion-marcas-desktop .presentacion-marcas-text-container-desktop p {
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-}
-#presentacion-marcas-desktop .presentacion-marcas-subtext-container-desktop {
-  width: 100%;
-  padding: 10px;
-}
-#presentacion-marcas-desktop .presentacion-marcas-subtext-container-desktop h1 {
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 20px;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-titulo-container-desktop {
-  width: 100%;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-titulo-container-desktop h1 {
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 30px;
-  font-weight: 800;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-descripcion-container-desktop {
-  height: 60px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-descripcion-container-desktop p {
-  color: #2f2d2d;
-  text-align: center;
-  font-family: "Questrial", sans-serif;
-  font-weight: 700;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-boton-container-desktop {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-boton-container-desktop button {
-  border: none;
-  border-radius: 5px;
-  height: 40px;
-  width: 150px;
-  cursor: pointer;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-  background-color: #2f2d2d;
-}
-#presentacion-marcas-desktop .presentacion-marcas-marcas-container-desktop .marca-boton-container-desktop button a {
-  text-decoration: none;
   color: #FBF8F4;
-  font-family: "Lexend Tera", sans-serif;
-  cursor: pointer;
+  font-size: 20px;
 }
 
 #form-contacto-home {
+  margin-top: 20px;
   width: 90vw;
   max-width: 1300px;
   border-radius: 20px;
   height: 514px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: 0.3s;
@@ -733,7 +694,7 @@ body {
 }
 #form-contacto-home .form-home-container #form-inmar-home h4 {
   font-family: "Questrial", sans-serif;
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-size: 18px;
   margin-bottom: 4px;
 }
@@ -741,7 +702,7 @@ body {
   width: 100%;
   height: 30px;
   margin-bottom: 14px;
-  border: 2px solid #2f2d2d;
+  border: 2px solid #FBF8F4;
   border-radius: 5px;
   padding: 5px;
   font-family: "Mulish", sans-serif;
@@ -751,7 +712,7 @@ body {
 #form-contacto-home .form-home-container #form-inmar-home textarea {
   width: 100%;
   height: 100px;
-  border: 2px solid #2f2d2d;
+  border: 2px solid #FBF8F4;
   border-radius: 5px;
   padding: 5px;
   resize: none;
@@ -770,10 +731,10 @@ body {
   width: 300px;
   border: none;
   border-radius: 10px;
-  background-color: #2f2d2d;
+  background-color: #FBF8F4;
   cursor: pointer;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 24px;
   font-weight: 800;
@@ -781,7 +742,7 @@ body {
 }
 #form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn:hover {
   background-color: #393737;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn:active {
   transform: translateY(2px);
@@ -796,9 +757,9 @@ body {
   justify-content: flex-start;
   padding-top: 60px;
 }
-#form-contacto-home .datos-contacto-desktop .datos-fm-desktop {
+#form-contacto-home .datos-contacto-desktop .datos-desktop {
   width: 100%;
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   height: 120px;
   display: flex;
@@ -806,20 +767,7 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
-#form-contacto-home .datos-contacto-desktop .datos-fm-desktop h5 {
-  margin-bottom: 10px;
-}
-#form-contacto-home .datos-contacto-desktop .datos-jm-desktop {
-  width: 100%;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  height: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-#form-contacto-home .datos-contacto-desktop .datos-jm-desktop h5 {
+#form-contacto-home .datos-contacto-desktop .datos-desktop h5 {
   margin-bottom: 10px;
 }
 
@@ -833,7 +781,7 @@ body {
   margin-top: 60px;
 }
 .form-contacto-titulo-desktop h4 {
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   font-size: 32px;
   text-align: center;
@@ -843,7 +791,7 @@ body {
   margin-top: 20px;
   height: 200px;
   width: 90vw;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border-radius: 20px;
 }
 
@@ -915,7 +863,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 99;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
 }
 #navbar .navbar {
   display: flex;
@@ -937,11 +885,11 @@ body {
   width: 100%;
   min-height: 100vh;
   z-index: 98;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   transition: 1s;
 }
 .mobile-nav a {
-  color: #1F1E1E;
+  color: #FBF8F4;
 }
 
 .mobile-nav.is-active {
@@ -962,7 +910,7 @@ body {
   display: block;
   width: 40px;
   height: 5px;
-  background-color: #1F1E1E;
+  background-color: #FBF8F4;
   margin: 6px 0px;
   border-radius: 10px;
   transition: 0.4s;
@@ -1041,7 +989,7 @@ body {
     justify-content: flex-end;
   }
   .desktop-nav .desktop-nav-links-container .desktop-nav-link {
-    color: #1F1E1E;
+    color: #FBF8F4;
     text-decoration: none;
     font-family: "Lexend Tera", sans-serif;
     margin-left: 30px;
@@ -1052,7 +1000,7 @@ body {
 footer {
   height: 100px;
   width: 100%;
-  background-color: #1F1E1E;
+  background-color: #2f2d2d;
   position: absolute;
   bottom: 0;
   display: flex;
