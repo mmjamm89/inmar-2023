@@ -24,18 +24,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +33,11 @@
 body {
   background-color: #FBF8F4;
   overflow-x: hidden;
+  --dot-bg: #FBF8F4;
+  --dot-color: #ACACAC;
+  --dot-size: 1px;
+  --dot-space: 10px;
+  background: linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center/var(--dot-space) var(--dot-space), linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center/var(--dot-space) var(--dot-space), var(--dot-color);
 }
 
 #page-container {
@@ -57,7 +50,7 @@ body {
 }
 
 #call-to-action {
-  margin-top: 70px;
+  margin-top: 100px;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -79,7 +72,8 @@ body {
 }
 #call-to-action .text-productos-container .text-productos {
   font-family: "Lexend Tera", sans-serif;
-  font-size: 16px;
+  font-size: 26px;
+  font-weight: 900;
   color: #2f2d2d;
   margin-left: 0;
   margin-top: 0;
@@ -91,7 +85,6 @@ body {
   width: 90vw;
   max-width: 1300px;
   height: 300px;
-  background-color: #FBF8F4;
   border-radius: 20px;
   margin-top: 100px;
   display: flex;
@@ -112,7 +105,7 @@ body {
   padding: 5px;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-logo-container svg {
-  width: 800px;
+  width: 1000px;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container {
   margin-top: 20px;
@@ -313,13 +306,15 @@ body {
   width: 90vw;
   max-width: 1300px;
   margin-bottom: 20px;
-  background-color: #2f2d2d;
+  background-color: #FBF8F4;
   border-radius: 20px;
   position: relative;
+  border: 4px solid #2f2d2d;
 }
 .marcas-home-desktop .marcas-home-desktop-img {
   width: 220px;
   border-radius: 12px;
+  border: 4px solid #2f2d2d;
   position: absolute;
   right: 20px;
   top: 0;
@@ -329,7 +324,7 @@ body {
 .marcas-home-desktop .marcas-home-desktop-titulo {
   width: 100%;
   height: 100px;
-  border-bottom: 3px solid #FBF8F4;
+  border-bottom: 3px solid #2f2d2d;
   display: flex;
 }
 .marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-logo-container {
@@ -355,7 +350,7 @@ body {
   font-size: 28px;
   font-family: "Lexend Tera", sans-serif;
   text-transform: uppercase;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 .marcas-home-desktop .marcas-home-desktop-descripcion-container {
   width: 74%;
@@ -366,7 +361,7 @@ body {
   padding: 20px;
 }
 .marcas-home-desktop .marcas-home-desktop-descripcion-container p {
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
   font-size: 20px;
   text-transform: none;
@@ -379,14 +374,14 @@ body {
 .marcas-home-desktop .marcas-home-desktop-button-container button {
   height: 80px;
   width: 400px;
-  background-color: #FBF8F4;
+  background-color: #2f2d2d;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
 }
 .marcas-home-desktop .marcas-home-desktop-button-container button h1 {
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   text-transform: uppercase;
 }
@@ -541,6 +536,7 @@ body {
   border: none;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+  background-color: #2f2d2d;
 }
 #home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button h1 {
   font-family: "Lexend Tera", sans-serif;
@@ -713,7 +709,8 @@ body {
   }
   #call-to-action-desktop {
     display: flex;
-    margin-top: 120px;
+    margin-top: 160px;
+    margin-bottom: 100px;
   }
   #form-contacto-mobile-home {
     display: none;
@@ -1436,134 +1433,6 @@ footer h5 {
     display: none;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.kaiken-producto-container {
-  max-width: 500px;
-  margin-top: 70px;
-  width: 90%;
-  border-radius: 5px;
-}
-.kaiken-producto-container .kaiken-producto-logo-container {
-  border-radius: 5px 5px 0 0;
-  width: 100%;
-  height: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #FBF8F4;
-}
-.kaiken-producto-container .kaiken-producto-logo-container .kaiken-producto-logo {
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  font-weight: 800;
-  font-size: 60px;
-}
-.kaiken-producto-container .kaiken-producto-imgslider-container {
-  width: 100%;
-  height: 300px;
-  border-left: 2px solid #FBF8F4;
-  border-right: 2px solid #FBF8F4;
-}
-.kaiken-producto-container .kaiken-producto-text-container {
-  width: 100%;
-  background-color: #FBF8F4;
-  height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 16px;
-  border-radius: 0 0 5px 5px;
-}
-.kaiken-producto-container .kaiken-producto-text-container p {
-  color: #2f2d2d;
-  font-family: "Mulish", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica {
-  width: 100%;
-  background-color: #FBF8F4;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 16px;
-  border-left: 2px solid #FBF8F4;
-  border-radius: 5px;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-img-container {
-  border-radius: 5px;
-  background-color: #2f2d2d;
-  width: 50%;
-  height: 100%;
-  border-top: 2px solid #FBF8F4;
-  border-bottom: 2px solid #FBF8F4;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-text-container {
-  width: 50%;
-  height: 100%;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-text-container .kaiken-producto-caracteristica-titulo-container {
-  height: 30%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 5px;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-text-container .kaiken-producto-caracteristica-titulo-container h2 {
-  margin: 0;
-  font-family: "Mulish", sans-serif;
-  font-size: 18px;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-text-container .kaiken-producto-caracteristica-contenido-container {
-  height: 70%;
-  width: 100%;
-  display: flex;
-  padding: 5px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.kaiken-producto-container .kaiken-producto-caracteristica .kaiken-producto-caracteristica-text-container .kaiken-producto-caracteristica-contenido-container p {
-  font-family: "Mulish", sans-serif;
-  color: #2f2d2d;
-  font-weight: 500;
-  font-family: 12px;
-}
-.kaiken-producto-container #ultimo-producto {
-  margin-bottom: 0;
-}
-.kaiken-producto-container .kaiken-producto-boton-contacto-container {
-  height: 160px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.kaiken-producto-container .kaiken-producto-boton-contacto-container button {
-  height: 80px;
-  width: 300px;
-  border-radius: 5px;
-  border: none;
-  background-color: #FBF8F4;
-  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.9));
-  cursor: pointer;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-}
-.kaiken-producto-container .kaiken-producto-boton-contacto-container button a {
-  text-decoration: none;
-  color: #2f2d2d;
-}
-
 * {
   margin: 0;
   padding: 0;

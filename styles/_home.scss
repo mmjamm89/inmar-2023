@@ -27,6 +27,16 @@ $font-4: 'Epilogue', sans-serif;
 body {
     background-color: $color-2;
     overflow-x: hidden;
+
+    --dot-bg: #FBF8F4;
+    --dot-color: #ACACAC;
+    --dot-size: 1px;
+    --dot-space: 10px;
+	background:
+	linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+	linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+	var(--dot-color);
+
 }
 
 #page-container {    
@@ -41,7 +51,7 @@ body {
 //MAIN CONTENT
 
 #call-to-action {
-    margin-top: 70px;    
+    margin-top: 100px;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -51,7 +61,7 @@ body {
     border-radius: 20px;
     background-color: $color-2;
     max-width: 500px;
-    transition: .3s;
+    transition: .3s;    
     .logo-home-container {        
         width: 95%;
         margin-bottom: 20px;
@@ -61,7 +71,8 @@ body {
         width: 95%;
         .text-productos {
             font-family: $font-1;
-            font-size: 16px;
+            font-size: 26px;
+            font-weight: 900;
             color: $color-1;
             margin-left: 0;
             margin-top: 0;
@@ -74,7 +85,7 @@ body {
     width: 90vw;
     max-width: 1300px;
     height: 300px;
-    background-color: $color-2;
+    // background-color: $color-2;
     border-radius: 20px;
     margin-top: 100px;
     display: flex;
@@ -92,7 +103,7 @@ body {
             justify-content: flex-start;
             padding: 5px;
             svg {
-                width: 800px;
+                width: 1000px;
             }
         }
         .desktop-text-container {
@@ -297,12 +308,14 @@ body {
     width: 90vw;
     max-width: 1300px;
     margin-bottom: 20px;
-    background-color: $color-1;
+    background-color: $color-2;
     border-radius: 20px;    
     position: relative;
+    border: 4px solid $color-1;
     .marcas-home-desktop-img {
         width: 220px;        
         border-radius: 12px;
+        border: 4px solid $color-1;
         position: absolute;
         right: 20px;
         top: 0;
@@ -312,7 +325,7 @@ body {
     .marcas-home-desktop-titulo {
         width: 100%;
         height: 100px;
-        border-bottom: 3px solid $color-2;
+        border-bottom: 3px solid $color-1;
         display: flex;
         .marcas-home-desktop-logo-container {
             padding-left: 20px;
@@ -336,7 +349,7 @@ body {
                 font-size: 28px;
                 font-family: $font-1;
                 text-transform: uppercase;
-                color: $color-2;
+                color: $color-1;
             }
         }             
     }
@@ -348,7 +361,7 @@ body {
         height: 150px;
         padding: 20px;
         p {
-            color: $color-2;
+            color: $color-1;
             font-family: $font-2;
             font-size: 20px;
             text-transform: none;
@@ -361,13 +374,13 @@ body {
         button {
             height: 80px;
             width: 400px;
-            background-color: $color-2;
+            background-color: $color-1;
             border: none;
             border-radius: 10px;
             cursor: pointer;
             filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
             h1 {
-                color: $color-1;
+                color: $color-2;
                 font-family: $font-1;
                 text-transform: uppercase;
             }
@@ -506,7 +519,6 @@ body {
                 text-transform: uppercase;
                 font-size: 40px;
                 font-weight: bold;
-
             }
         }
         .home-desktop-obras-call-to-button {            
@@ -524,6 +536,7 @@ body {
                     border: none;
                     border-radius: 10px;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+                    background-color: $color-1;
                     h1 {
                         font-family: $font-1;
                         text-transform: uppercase;
@@ -701,7 +714,8 @@ body {
     }    
     #call-to-action-desktop {
         display: flex;
-        margin-top: 120px;
+        margin-top: 160px;
+        margin-bottom: 100px;
     }
     #form-contacto-mobile-home {
         display: none;
