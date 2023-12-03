@@ -1141,6 +1141,16 @@ footer h5 {
   font-family: "Mulish", sans-serif;
 }
 
+.productos-marcas-intro-container {
+  width: 90vw;
+  max-width: 500px;
+  height: 100px;
+  margin-top: 100px;
+  border: 4px solid #FBF8F4;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
 .productos-marcas-container {
   max-width: 500px;
   width: 90vw;
@@ -1149,9 +1159,19 @@ footer h5 {
   flex-direction: column;
   border-radius: 20px;
   margin-bottom: 20px;
-  margin-top: 100px;
   border: 4px solid #FBF8F4;
   overflow: hidden;
+}
+.productos-marcas-container .productos-marcas-logo-container-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.productos-marcas-container .productos-marcas-logo-container-mobile img {
+  width: 400px;
+  border-radius: 10px;
 }
 .productos-marcas-container .productos-marcas-titulo-container {
   width: 100%;
@@ -1169,6 +1189,7 @@ footer h5 {
   padding-bottom: 12px;
   font-size: 24px;
   text-transform: uppercase;
+  text-align: center;
 }
 .productos-marcas-container .productos-marcas-slider-container {
   width: 100%;
