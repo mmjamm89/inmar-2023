@@ -2,8 +2,8 @@
 
 //COLORS
 // $color-1: #393737;
-$color-1: #2f2d2d;
-$color-2: #FBF8F4;
+$color-2: #2f2d2d;
+$color-1: #FBF8F4;
 $color-3: white;
 $color-4: #FEF2D4;
 
@@ -39,9 +39,10 @@ $font-4: 'Epilogue', sans-serif;
         #form-titulo {
             margin-bottom: 10px;
             .form-call-to-action {
-                font-size: 16px;
+                font-size: 24px;
                 color: $color-1;
                 font-family: $font-2;
+                margin-bottom: 40px;
             }
         }
         form {
@@ -83,7 +84,7 @@ $font-4: 'Epilogue', sans-serif;
                 height: 35px;
                 padding: 5px;
                 border-radius: 5px;
-                background-color: $color-2;
+                background-color: $color-1;
                 font-size: 20px;
             }
             #input-mensaje {
