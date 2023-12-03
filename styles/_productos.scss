@@ -35,17 +35,6 @@ $font-4: 'Epilogue', sans-serif;
         font-family: $font-2;
     }
 }
-.productos-intro-container-desktop {
-    width: 90vw;
-    max-width: 1300px; 
-    margin-top: 120px;
-    p {
-        font-family: $font-1;
-        color: $color-1;
-        font-size: 20px;
-    }
-
-}
 .productos-marcas-container {
     max-width: 500px;
     width: 90vw;
@@ -171,22 +160,37 @@ $font-4: 'Epilogue', sans-serif;
     align-items: center;
     width: 90vw;
     max-width: 1300px;
-    margin-top: 40px;
+    margin-top: 100px;
+    border: 4px solid $color-2;
+    border-radius: 20px;
     .productos-marcas-titulo-container-desktop {
         width: 100%;
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
+        height: 120px;        
         background-color: $color-1;
         border-radius: 20px 20px 0 0;
         padding: 10px;
+        display: flex;
+        .productos-marcas-titulo-img-container {
+            height: 100%;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            img {
+                width: 220px;
+                border-radius: 10px;
+            }
+        }
         h1 {
+            height: 100%;
+            width: 80%;            
             font-family: $font-1;
             color: $color-2;
             text-transform: uppercase;
-        }        
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
     }
     .productos-marcas-slider-container-desktop {        
         width: 100%;
@@ -202,11 +206,13 @@ $font-4: 'Epilogue', sans-serif;
     .productos-marcas-descripcion-container-desktop {
         width: 100%;        
         padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         border-left: 3px solid $color-1;
         border-right: 3px solid $color-1;        
         p {            
             font-family: $font-3;
-            color: $color-1;
+            color: $color-2;
             font-size: 20px;            
         }
     }
@@ -219,7 +225,7 @@ $font-4: 'Epilogue', sans-serif;
         align-items: center;
         justify-content: flex-start;
         border-radius: 0 0 20px 20px;
-        border: 3px solid $color-1;
+        border: 3px solid $color-2;
         .productos-marcas-beneficios-desktop {
             width: 60%;
             height: 100%;
@@ -228,6 +234,7 @@ $font-4: 'Epilogue', sans-serif;
             justify-content: flex-start;
             align-items: flex-start;
             h3 {
+                text-transform: uppercase;
                 color: $color-1;
                 font-family: $font-1;
                 font-size: 32px;
