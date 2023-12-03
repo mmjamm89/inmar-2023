@@ -47,9 +47,7 @@ body {
     align-items: center;
     padding-bottom: 120px;
 }
-
 //MAIN CONTENT
-
 #call-to-action {
     margin-top: 100px;
     width: 90vw;
@@ -58,11 +56,10 @@ body {
     align-items: center;
     justify-content: flex-start;
     border: 1px solid $color-2;
-    border-radius: 20px;
-    background-color: $color-2;
+    border-radius: 20px;    
     max-width: 500px;
     transition: .3s;    
-    .logo-home-container {        
+    .logo-home-container {
         width: 95%;
         margin-bottom: 20px;
     }    
@@ -173,13 +170,13 @@ body {
 }
 .marcas-home-mobile {
     margin-top: 40px;
-    width: 90vw;    
-    background-color: $color-1;
+    width: 90vw;
     border-radius: 20px;
+    border: 4px solid $color-1;
     .marcas-home-mobile-logo-container {
         width: 100%;
         height: 100px;
-        border-bottom: 4px solid $color-2;
+        border-bottom: 4px solid $color-1;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -195,7 +192,7 @@ body {
             padding-top: 5px;
             padding-bottom: 5px;
             font-family: $font-1;
-            color: $color-2;
+            color: $color-1;
             font-weight: 800;
             text-transform: uppercase;
             font-size: 22px;
@@ -205,7 +202,7 @@ body {
     .marcas-home-mobile-text-container {
         padding: 5px;
         p {
-            color: $color-2;
+            color: $color-1;
             font-family: $font-2;
             font-size: 18px;
             font-weight: bold;
@@ -232,11 +229,11 @@ body {
                     width: 260px;
                     border: none;
                     border-radius: 10px;
-                    background-color: $color-2;
+                    background-color: $color-1;
                     cursor: pointer;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
                     h1 {
-                        color: $color-1;
+                        color: $color-2;
                         text-transform: uppercase;
                         font-family: $font-1;
                     }
@@ -453,6 +450,7 @@ body {
                 border: none;
                 border-radius: 10px;
                 filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+                background-color: $color-1;
                 h1 {
                     font-family: $font-1;
                     color: $color-2;
