@@ -1174,6 +1174,7 @@ footer h5 {
   width: 100%;
   height: 300px;
   background-color: #2f2d2d;
+  position: relative;
 }
 .productos-marcas-container .productos-marcas-slider-container img {
   width: 100%;
@@ -1218,29 +1219,24 @@ footer h5 {
   align-items: center;
   justify-content: center;
 }
-.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 300px;
-  width: 60%;
-  border-radius: 10px;
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile a {
+  width: 90%;
 }
-.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile button {
-  position: absolute;
-  bottom: 10px;
-  right: 107px;
-  height: 50px;
-  width: 50%;
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile a button {
+  height: 80px;
+  width: 100%;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-}
-.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile button a {
   text-decoration: none;
-  color: #2f2d2d;
+  background-color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .productos-marcas-container-desktop {
