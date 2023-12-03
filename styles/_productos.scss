@@ -47,8 +47,7 @@ $font-4: 'Epilogue', sans-serif;
 }
 .productos-marcas-container {
     max-width: 500px;
-    width: 90vw;
-    
+    width: 90vw;    
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -60,10 +59,9 @@ $font-4: 'Epilogue', sans-serif;
         align-items: center;
         justify-content: center;
         padding-top: 30px;
-        padding-bottom: 10px;
-        background-color: $color-2;
+        padding-bottom: 10px;        
         img {
-            width: 400px;
+            width: 300px;
             border-radius: 10px;
         }
     }
@@ -73,10 +71,9 @@ $font-4: 'Epilogue', sans-serif;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
-        background-color: $color-2;
+        justify-content: center;        
         h2 {
-            color: $color-1;
+            color: $color-2;
             font-family: $font-1;
             padding-top: 12px;
             padding-bottom: 12px;
@@ -87,9 +84,10 @@ $font-4: 'Epilogue', sans-serif;
     }
     .productos-marcas-slider-container {
         width: 100%;
-        height: 300px;
-        background-color: #2f2d2d;
-        position: relative;        
+        height: 300px;        
+        position: relative;
+        border-top: 4px solid $color-2;
+        border-bottom: 4px solid $color-2;
         img {
             width: 100%;
             height: 100%;
