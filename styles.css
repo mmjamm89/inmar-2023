@@ -1276,6 +1276,93 @@ footer h5 {
   cursor: pointer;
 }
 
+#obras-mobile-contacto {
+  width: 90vw;
+  border: 8px solid #2f2d2d;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 20px;
+}
+#obras-mobile-contacto h1 {
+  width: 100%;
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+  color: #2f2d2d;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#obras-mobile-contacto .form-container-obras-mobile {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#obras-mobile-contacto .form-container-obras-mobile form {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .input-form-obras-mobile {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .input-form-obras-mobile h4 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-weight: 800;
+  font-size: 24px;
+  padding-bottom: 2px;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .input-form-obras-mobile input {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  border: 3px solid #2f2d2d;
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .input-form-obras-mobile textarea {
+  padding: 5px;
+  height: 140px;
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid #2f2d2d;
+  resize: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .form-btn-container {
+  padding-top: 40px;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .form-btn-container button {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2f2d2d;
+  font-size: 28px;
+  color: #FBF8F4;
+  text-transform: uppercase;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 700;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+  cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
   #obras-desktop {
     display: none;
@@ -1290,6 +1377,9 @@ footer h5 {
   }
   #obras-desktop {
     display: inline-block;
+  }
+  #obras-mobile-contacto {
+    display: none;
   }
 }
 .productos-intro-container {
