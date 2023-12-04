@@ -439,7 +439,7 @@ body {
   padding-bottom: 40px;
 }
 #home-mobile-obras .home-mobile-obras-button a button {
-  width: 300px;
+  width: 80vw;
   height: 70px;
   cursor: pointer;
   border: none;
@@ -645,7 +645,7 @@ body {
   text-transform: uppercase;
   color: #2f2d2d;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -677,7 +677,7 @@ body {
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 2px;
 }
 #home-mobile-contacto .form-container-home-mobile form .input-form-home-mobile input {
@@ -705,7 +705,7 @@ body {
   padding-top: 40px;
 }
 #home-mobile-contacto .form-container-home-mobile form .form-btn-container button {
-  width: 300px;
+  width: 80vw;
   height: 60px;
   border: none;
   border-radius: 10px;
@@ -1301,7 +1301,7 @@ footer h5 {
   text-transform: uppercase;
   color: #2f2d2d;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -1333,7 +1333,7 @@ footer h5 {
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 2px;
 }
 #obras-mobile-contacto .form-container-obras-mobile form .input-form-obras-mobile input {
@@ -1361,7 +1361,7 @@ footer h5 {
   padding-top: 40px;
 }
 #obras-mobile-contacto .form-container-obras-mobile form .form-btn-container button {
-  width: 300px;
+  width: 80vw;
   height: 60px;
   border: none;
   border-radius: 10px;
@@ -1409,7 +1409,6 @@ footer h5 {
 
 .productos-marcas-intro-container {
   width: 90vw;
-  max-width: 500px;
   margin-top: 100px;
   border: 8px solid #2f2d2d;
   border-radius: 20px;
@@ -1437,7 +1436,6 @@ footer h5 {
 }
 
 .productos-marcas-container {
-  max-width: 500px;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -1822,7 +1820,7 @@ footer h5 {
   text-transform: uppercase;
   color: #2f2d2d;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -1854,7 +1852,7 @@ footer h5 {
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 2px;
 }
 #productos-mobile-contacto .form-container-productos-mobile form .input-form-productos-mobile input {
@@ -1882,7 +1880,7 @@ footer h5 {
   padding-top: 40px;
 }
 #productos-mobile-contacto .form-container-productos-mobile form .form-btn-container button {
-  width: 300px;
+  width: 80vw;
   height: 60px;
   border: none;
   border-radius: 10px;
@@ -2046,7 +2044,7 @@ footer h5 {
   text-transform: uppercase;
   color: #2f2d2d;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 900;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -2078,7 +2076,7 @@ footer h5 {
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 20px;
   padding-bottom: 2px;
 }
 #contacto-mobile-contacto .form-container-contacto-mobile form .input-form-contacto-mobile input {
@@ -2106,7 +2104,7 @@ footer h5 {
   padding-top: 40px;
 }
 #contacto-mobile-contacto .form-container-contacto-mobile form .form-btn-container button {
-  width: 300px;
+  width: 80vw;
   height: 60px;
   border: none;
   border-radius: 10px;

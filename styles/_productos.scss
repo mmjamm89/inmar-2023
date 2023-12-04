@@ -38,7 +38,7 @@ $font-4: 'Epilogue', sans-serif;
 }
 .productos-marcas-intro-container {
     width: 90vw;
-    max-width: 500px;    
+    // max-width: 500px;    
     margin-top: 100px;
     border: 8px solid $color-2;
     border-radius: 20px;
@@ -65,7 +65,7 @@ $font-4: 'Epilogue', sans-serif;
     }
 }
 .productos-marcas-container {
-    max-width: 500px;
+    // max-width: 500px;
     width: 90vw;    
     display: flex;
     flex-direction: column;
@@ -446,7 +446,7 @@ $font-4: 'Epilogue', sans-serif;
         text-transform: uppercase;
         color: $color-2;
         text-align: center;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 900;
         padding-top: 30px;
         padding-bottom: 10px;
@@ -475,7 +475,7 @@ $font-4: 'Epilogue', sans-serif;
                     font-family: $font-1;
                     color: $color-2;
                     font-weight: 800;
-                    font-size: 24px;
+                    font-size: 20px;
                     padding-bottom: 2px;
                 }
                 input {                    
@@ -503,7 +503,7 @@ $font-4: 'Epilogue', sans-serif;
             .form-btn-container {
                 padding-top: 40px;
                 button {
-                    width: 300px;
+                    width: 80vw;
                     height: 60px;
                     border: none;
                     border-radius: 10px;
