@@ -391,32 +391,16 @@ body {
 
 #home-desktop-slogans {
   width: 90vw;
+  background-color: #2f2d2d;
   max-width: 1300px;
+  border-radius: 20px;
   height: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   margin-top: 60px;
-  margin-bottom: 40px;
-}
-#home-desktop-slogans .home-desktop-envios {
-  font-size: 40px;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  text-transform: uppercase;
-}
-#home-desktop-slogans .home-desktop-precios {
-  font-size: 40px;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  text-transform: uppercase;
-}
-#home-desktop-slogans .home-desktop-constructores {
-  font-size: 50px;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 #home-mobile-obras {
@@ -462,7 +446,7 @@ body {
 }
 
 #home-mobile-slogans {
-  width: 90vw;
+  width: 100vw;
   border-radius: 20px;
   margin-top: 40px;
   padding: 5px;
@@ -550,100 +534,89 @@ body {
   font-size: 30px;
 }
 
-#form-contacto-home {
-  margin-top: 20px;
+#home-desktop-contacto {
   width: 90vw;
   max-width: 1300px;
+  border: 8px solid #2f2d2d;
+  margin-top: 80px;
   border-radius: 20px;
-  height: 514px;
+}
+#home-desktop-contacto h1 {
+  width: 100%;
+  font-family: "Lexend Tera", sans-serif;
+  text-transform: uppercase;
+  color: #2f2d2d;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#home-desktop-contacto .form-container-home-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home-desktop-contacto .form-container-home-desktop form {
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
 }
-#form-contacto-home .form-home-container {
-  width: 50%;
-  border-radius: 10px 0 0 10px;
-  padding: 20px;
+#home-desktop-contacto .form-container-home-desktop form .input-form-home-desktop {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 600px;
 }
-#form-contacto-home .form-home-container #form-inmar-home h4 {
-  font-family: "Questrial", sans-serif;
+#home-desktop-contacto .form-container-home-desktop form .input-form-home-desktop h4 {
+  font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
-  font-size: 18px;
-  margin-bottom: 4px;
+  font-weight: 800;
+  font-size: 24px;
+  padding-bottom: 2px;
 }
-#form-contacto-home .form-home-container #form-inmar-home input {
+#home-desktop-contacto .form-container-home-desktop form .input-form-home-desktop input {
   width: 100%;
-  height: 30px;
-  margin-bottom: 14px;
-  border: 2px solid #2f2d2d;
-  border-radius: 5px;
+  height: 40px;
   padding: 5px;
+  border: 3px solid #2f2d2d;
+  border-radius: 5px;
   font-family: "Mulish", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-#form-contacto-home .form-home-container #form-inmar-home textarea {
+#home-desktop-contacto .form-container-home-desktop form .input-form-home-desktop textarea {
   width: 100%;
-  height: 100px;
-  border: 2px solid #2f2d2d;
-  border-radius: 5px;
   padding: 5px;
+  height: 140px;
+  border-radius: 5px;
+  border: 3px solid #2f2d2d;
   resize: none;
   font-family: "Mulish", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-#form-contacto-home .form-home-container #form-inmar-home .form-btn-container {
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn {
-  height: 75px;
+#home-desktop-contacto .form-container-home-desktop form .form-btn-container button {
   width: 300px;
+  height: 60px;
   border: none;
   border-radius: 10px;
   background-color: #2f2d2d;
+  font-size: 28px;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 700;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
-  color: #FBF8F4;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-  transition: 0.3s;
-}
-#form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn:hover {
-  background-color: #393737;
-  color: #FBF8F4;
-}
-#form-contacto-home .form-home-container #form-inmar-home .form-btn-container .form-btn:active {
-  transform: translateY(2px);
-  filter: drop-shadow(4px 4px 4px rgba(206, 206, 206, 0.9));
-}
-#form-contacto-home .datos-contacto-desktop {
-  height: 100%;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 60px;
-}
-#form-contacto-home .datos-contacto-desktop .datos-desktop {
-  width: 100%;
-  color: #2f2d2d;
-  font-family: "Lexend Tera", sans-serif;
-  height: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-#form-contacto-home .datos-contacto-desktop .datos-desktop h5 {
-  margin-bottom: 10px;
 }
 
 .form-contacto-titulo-desktop {
@@ -685,6 +658,9 @@ body {
     display: none;
   }
   #home-desktop-obras {
+    display: none;
+  }
+  #home-desktop-contacto {
     display: none;
   }
 }
