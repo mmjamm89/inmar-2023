@@ -112,6 +112,92 @@ $font-4: 'Epilogue', sans-serif;
         }
     }
 }
+#contacto-mobile-contacto {
+    width: 90vw;
+    border: 8px solid $color-1;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    h1 {
+        width: 100%;
+        font-family: $font-1;
+        text-transform: uppercase;
+        color: $color-1;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .form-container-contacto-mobile {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        form {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .input-form-contacto-mobile {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 90%;                
+                h4 {
+                    font-family: $font-1;
+                    color: $color-1;
+                    font-weight: 800;
+                    font-size: 24px;
+                    padding-bottom: 2px;
+                }
+                input {                    
+                    height: 40px;
+                    width: 100%;
+                    padding: 5px;
+                    border: 3px solid $color-1;
+                    border-radius: 5px;
+                    font-family: $font-2;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                textarea {                    
+                    padding: 5px;
+                    height: 140px;
+                    width: 100%;
+                    border-radius: 5px;
+                    border: 3px solid $color-1;
+                    resize: none;
+                    font-family: $font-2;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+            .form-btn-container {
+                padding-top: 40px;
+                button {
+                    width: 300px;
+                    height: 60px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: $color-1;
+                    font-size: 28px;
+                    color: $color-2;
+                    text-transform: uppercase;
+                    font-family: $font-1;
+                    font-weight: 700;
+                    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
 #mapa-contacto {
     max-width: 500px;
     width: 90%;
@@ -122,11 +208,16 @@ $font-4: 'Epilogue', sans-serif;
 }
 
 @media screen and (max-width: 800px) {
-    
+    #contacto-desktop-contacto {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 800px) {
     #mapa-contacto {
+        display: none;
+    }
+    #contacto-mobile-contacto {
         display: none;
     }
 }
