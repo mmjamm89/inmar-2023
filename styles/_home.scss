@@ -64,8 +64,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     border: 1px solid $color-2;
-    border-radius: 20px;    
-    max-width: 500px;
+    border-radius: 20px;
     transition: .3s;    
     .logo-home-container {
         width: 95%;
@@ -320,7 +319,7 @@ body {
     position: relative;
     border: 8px solid $color-1;
     .marcas-home-desktop-img {
-        width: 220px;        
+        width: 220px;
         border-radius: 12px;
         border: 4px solid $color-1;
         position: absolute;
@@ -330,8 +329,7 @@ body {
         margin: auto 0;
     }
     .marcas-home-desktop-titulo {
-        width: 100%;
-        // height: 100px;
+        width: 100%;        
         border-bottom: 3px solid $color-1;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -379,7 +377,7 @@ body {
     .marcas-home-desktop-button-container {
         width: 100%;
         padding-left: 20px;
-        padding-bottom: 29px;        
+        padding-bottom: 30px;        
         button {
             height: 80px;
             width: 400px;
@@ -803,5 +801,38 @@ body {
     }
     #home-mobile-contacto {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .marcas-home-desktop {
+        .marcas-home-desktop-img {
+            display: none;
+        }
+        .marcas-home-desktop-titulo {
+            .marcas-home-desktop-logo-container {
+                .marcas-home-desktop-logo {
+                }
+            }
+            .marcas-home-desktop-titulo-text {
+                width: 700px;                
+                h1 {
+                }
+            }             
+        }
+        .marcas-home-desktop-descripcion-container {
+            width: 100%;
+            p {                
+            }
+        }
+        .marcas-home-desktop-button-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button {                
+                h1 {                    
+                }
+            }
+        }        
     }
 }

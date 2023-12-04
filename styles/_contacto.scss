@@ -198,13 +198,13 @@ $font-4: 'Epilogue', sans-serif;
         }
     }
 }
-#mapa-contacto {
-    max-width: 500px;
+#mapa-contacto {    
     width: 90%;
     border-radius: 20px;
+    overflow: hidden;
     height: 400px;
     width: 90%;
-    border: 4px solid $color-1;
+    border: 8px solid $color-1;
 }
 
 @media screen and (max-width: 800px) {

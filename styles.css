@@ -66,7 +66,6 @@ body {
   justify-content: flex-start;
   border: 1px solid #FBF8F4;
   border-radius: 20px;
-  max-width: 500px;
   transition: 0.3s;
 }
 #call-to-action .logo-home-container {
@@ -380,7 +379,7 @@ body {
 .marcas-home-desktop .marcas-home-desktop-button-container {
   width: 100%;
   padding-left: 20px;
-  padding-bottom: 29px;
+  padding-bottom: 30px;
 }
 .marcas-home-desktop .marcas-home-desktop-button-container button {
   height: 80px;
@@ -803,6 +802,22 @@ body {
   }
   #home-mobile-contacto {
     display: none;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .marcas-home-desktop .marcas-home-desktop-img {
+    display: none;
+  }
+  .marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-titulo-text {
+    width: 700px;
+  }
+  .marcas-home-desktop .marcas-home-desktop-descripcion-container {
+    width: 100%;
+  }
+  .marcas-home-desktop .marcas-home-desktop-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 #navbar {
@@ -2088,12 +2103,12 @@ footer h5 {
 }
 
 #mapa-contacto {
-  max-width: 500px;
   width: 90%;
   border-radius: 20px;
+  overflow: hidden;
   height: 400px;
   width: 90%;
-  border: 4px solid #2f2d2d;
+  border: 8px solid #2f2d2d;
 }
 
 @media screen and (max-width: 800px) {
