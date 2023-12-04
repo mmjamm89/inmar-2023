@@ -390,7 +390,6 @@ body {
     
 }
 #home-desktop-slogans {
-    // width: 100vw;
     width: 90vw;
     background-color: $color-1;
     max-width: 1300px;
@@ -540,6 +539,7 @@ body {
     max-width: 1300px;
     border: 8px solid $color-1;
     margin-top: 80px;
+    margin-bottom: 80px;
     border-radius: 20px;
     h1 {
         width: 100%;
@@ -604,6 +604,7 @@ body {
                 }
             }
             .form-btn-container {
+                padding-top: 40px;
                 button {
                     width: 300px;
                     height: 60px;
@@ -612,6 +613,7 @@ body {
                     background-color: $color-1;
                     font-size: 28px;
                     color: $color-2;
+                    text-transform: uppercase;
                     font-family: $font-1;
                     font-weight: 700;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
