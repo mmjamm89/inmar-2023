@@ -1075,6 +1075,19 @@ footer h5 {
   font-weight: 600;
   font-size: 18px;
 }
+#obras-mobile-container .obras-mobile-datos-container {
+  width: 100%;
+  height: 300px;
+  border-top: 4px solid #2f2d2d;
+}
+#obras-mobile-container .obras-mobile-datos-texto {
+  border-top: 4px solid #2f2d2d;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-family: "Mulish", sans-serif;
+}
 
 #obras-desktop-container {
   width: 90vw;
@@ -1082,6 +1095,7 @@ footer h5 {
   border: 8px solid #2f2d2d;
   border-radius: 20px;
   margin-top: 60px;
+  overflow: hidden;
 }
 #obras-desktop-container .obras-ejecucion-desktop {
   font-family: "Lexend Tera", sans-serif;
@@ -1121,6 +1135,24 @@ footer h5 {
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 18px;
+  background-color: #FBF8F4;
+}
+#obras-desktop-container .obras-desktop-datos {
+  width: 100%;
+  display: flex;
+  background-color: #FBF8F4;
+  border-top: 4px solid #2f2d2d;
+}
+#obras-desktop-container .obras-desktop-datos p {
+  width: 60%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Mulish", sans-serif;
+  color: #2f2d2d;
+  font-weight: 600;
+  border-right: 4px solid #2f2d2d;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #obras-desktop-contacto {
