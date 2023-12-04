@@ -40,11 +40,11 @@ $font-4: 'Epilogue', sans-serif;
     width: 90vw;
     max-width: 500px;    
     margin-top: 100px;
-    border: 6px solid $color-2;
+    border: 8px solid $color-2;
     border-radius: 20px;
     margin-bottom: 20px;
     h1 {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 900;
         font-family: $font-1;
         color: $color-2;
@@ -71,7 +71,7 @@ $font-4: 'Epilogue', sans-serif;
     flex-direction: column;
     border-radius: 20px;
     margin-bottom: 20px;    
-    border: 6px solid $color-2;
+    border: 8px solid $color-2;
     overflow: hidden;
     .productos-marcas-logo-container-mobile {
         display: flex;
