@@ -17,12 +17,6 @@ $font-3: 'Questrial', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 $font-4: 'Epilogue', sans-serif;
 
-//PADDING
-
-//OTHER
-
-//STYLES
-
 *{
     margin: 0;
     padding: 0;
@@ -35,223 +29,142 @@ $font-4: 'Epilogue', sans-serif;
     flex-direction: column;
     align-items: center;        
 }
-#obras {
-    max-width: 500px;
-    margin-top: 60px;    
+#obras-titulo-mobile-container {
+    margin-top: 100px;
+    width: 90vw;    
+    border: 8px solid $color-2;
     border-radius: 20px;
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    .obras-titulo-container {
-        width: 100%;
-        height: 70px;        
-        padding-top: 0;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;        
-        h1 {
-            color: $color-1;
-            font-family: $font-1;
-            font-size: 40px;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    padding-left: 5px;
+    padding-right: 5px;
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: $font-1;
+        color: $color-2;
+        text-transform: uppercase;
+        font-size: 35px;
+        font-weight: 900;
     }
-    .obras-intro-container {
-        width: 90vw;        
-        border-radius: 20px;
-        padding: 5px;
-        margin-bottom: 20px;
-        max-width: 500px;        
-        p {
-            color: $color-1;
-            font-family: $font-2;
-            font-size: 16px;            
-        }
-    }
-    .obra-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        border-radius: 20px;
-        border: 3px solid $color-1;
-        margin-bottom: 20px;
-        overflow: hidden;
-        .obra-titulo-container {            
-            background-color: $color-1;
-            width: 100%;
-            height: 140px;
-            padding: 5px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-            h1 {
-                color: $color-2;
-                font-family: $font-1;
-                font-weight: 800;
-                font-size: 26px;
-                margin: 0;
-            }
-            h2 {
-                color: $color-2;
-                font-family: $font-1;
-                font-size: 16px;
-                margin: 0;
-            }
-        }
-        .obra-imgslider-container {
-            width: 100%;
-            height: 200px;
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-        .obra-descripcion-container {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            // border-left: 3px solid $color-1;
-            // border-right: 3px solid $color-1;
-            // border-bottom: 3px solid $color-1;
-            border-radius: 0 0 20px 20px;
-            .obra-descripcion-1 {
-                padding: 5px;
-                height: 100px;                
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                p {
-                    color: $color-1;
-                    font-family: $font-2;                    
-                }
-            }
-            .obra-descripcion-2 {
-                width: 100%;
-                height: 100px;
-                padding: 5px;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: center;
-                p {
-                    color: $color-1;
-                    font-family: $font-1;
-                    font-weight: 600;
-                    margin-bottom: 5px;
-                }
-            }
-        }
+    p {
+        font-family: $font-2;
+        color: $color-2;
+        font-weight: 600;
+        padding-bottom: 20px;
     }
 }
-#obras-desktop {    
-    .obras-titulo-container-desktop {
-        margin-top: 120px;
-        width: 90vw;
-        max-width: 1300px;
-        border-radius: 20px 20px 0 0;
-        border: 3px solid $color-2;
-        border-bottom: none;
-        padding: 10px;
-        background-color: $color-1;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        height: 140px;
-        border: 3px solid $color-1;
-        h1 {
-            font-family: $font-1;
-            color: $color-2;
-            font-size: 80px;
-            margin: 0;
-        }
+#obras-titulo-desktop-container {
+    margin-top: 150px;
+    max-width: 1300px;
+    width: 90vw;    
+    border: 8px solid $color-2;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    h1 {
+        font-family: $font-1;
+        text-transform: uppercase;
+        font-size: 60px;
+        color: $color-2;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
-    .titulo-obras-container-desktop {
-        width: 90vw;
-        max-width: 1300px;
+    p {
+        font-family: $font-2;
+        color: $color-2;
+        font-weight: 600;
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+}
+#obras-mobile-container {
+    width: 90vw;
+    border: 8px solid $color-2;
+    border-radius: 20px;
+    margin-top: 40px;    
+    .obras-ejecucion-mobile {
+        font-family: $font-1;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $color-1;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: $color-2;
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding: 10px;
-        border-left: 3px solid $color-1;
-        border-right: 3px solid $color-1;
-        h1 {
-            font-family: $font-1;
-            color: $color-1;
-            font-weight: 800;
-            text-transform: uppercase;
-            font-size: 40px;
-        }
-        h3 {
-            font-family: $font-1;
-            color: $color-1;
-        }
     }
-    .obras-img-container-desktop {
-        width: 90vw;
-        height: 400px;
-        max-width: 1300px;
-        display: flex;
-        overflow: hidden;
-        border-left: 3px solid $color-1;
-        border-right: 3px solid $color-1;
-        img {
-            height: 100%;
-            // width: 100%;
-            object-fit: cover;
-        }
+    .garzon-mobile {
+        font-family: $font-1;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $color-2;
+        font-size: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 8px solid $color-2;
+        border-top: 8px solid $color-2;
     }
-    .descripcion-obra-container-desktop {
-        width: 90vw;
+    .obras-mobile-galeria {
+        width: 100%;
         height: 300px;
-        max-width: 1300px;
-        background-color: #2f2d2d;
-        border: 3px solid $color-1;
-        border-top: none;
-        border-radius: 0 0 20px 20px;        
-        display: flex;
-        .descripcion-obra-text-container-desktop {
-            width: 50%;
-            height: 100%;            
-            padding: 10px;
-            p {
-                height: 50%;
-                width: 100%;
-                color: $color-2;
-                font-family: $font-2;
-                font-size: 20px;                
-            }
-        }
-        .descripcion-obra-puntos-container-desktop {
-            width: 50%;
-            height: 100%;
-            padding: 10px;
-            display: grid;
-            grid-template-rows: repeat(3, 1fr);            
-            h3 {
-                font-family: $font-1;
-                text-transform: uppercase;
-                color: $color-2;                
-                font-size: 26px;
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                padding-left: 20%;
-            }
-        }
+        border-bottom: 8px solid $color-2;
+    }
+    .obras-mobile-descripcion {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: $font-2;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+#obras-desktop-container {
+    width: 90vw;
+    max-width: 1300px;
+    border: 8px solid $color-2;
+    border-radius: 20px;
+    margin-top: 60px;    
+    .obras-ejecucion-desktop {
+        font-family: $font-1;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $color-1;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: $color-2;
+    }
+    .garzon-desktop {
+        font-family: $font-1;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $color-2;
+        font-size: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 8px solid $color-2;
+        border-top: 8px solid $color-2;
+    }
+    .obras-desktop-galeria {
+        width: 100%;
+        height: 300px;
+        border-bottom: 8px solid $color-2;
+    }
+    .obras-desktop-descripcion {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: $font-2;
+        font-weight: 600;
+        font-size: 18px;
     }
 }
 #obras-desktop-contacto {
@@ -346,7 +259,7 @@ $font-4: 'Epilogue', sans-serif;
 #obras-mobile-contacto {
     width: 90vw;
     border: 8px solid $color-2;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 80px;
     border-radius: 20px;
     h1 {
@@ -429,7 +342,6 @@ $font-4: 'Epilogue', sans-serif;
         }
     }
 }
-
 @media screen and (max-width: 800px) {
     #obras-desktop {
         display: none;
@@ -437,8 +349,14 @@ $font-4: 'Epilogue', sans-serif;
     #obras-desktop-contacto {
         display: none;
     }
+    #obras-titulo-desktop-container {
+        display: none;
+    }
+    #obras-desktop-container {
+        display: none;
+    }
+    
 }
-
 @media screen and (min-width: 800px) {
     #obras {
         display: none;
@@ -447,6 +365,12 @@ $font-4: 'Epilogue', sans-serif;
         display: inline-block;
     }
     #obras-mobile-contacto {
+        display: none;
+    }
+    #obras-titulo-mobile-container {
+        display: none;
+    }
+    #obras-mobile-container {
         display: none;
     }
 }
