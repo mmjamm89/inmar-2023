@@ -1,8 +1,8 @@
-let form = document.getElementById('form-inmar-productos-desktop');
-form.addEventListener('submit', e => {
+let formProductosDesktop = document.getElementById('form-inmar-productos-desktop');
+formProductosDesktop.addEventListener('submit', e => {
     e.preventDefault();
 
-    fetch(form.action, {
+    fetch(formProductosDesktop.action, {
         method: 'POST',
         body: new FormData(document.getElementById('form-inmar-productos-desktop')),
     }).then (
