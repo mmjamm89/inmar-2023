@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.productos-intro-container {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 90vw;
+  padding: 5px;
+  padding: 5px;
+  max-width: 500px;
+}
+.productos-intro-container p {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
+}
+
+.productos-marcas-intro-container {
+  width: 90vw;
+  max-width: 500px;
+  height: 100px;
+  margin-top: 100px;
+  border: 4px solid #2f2d2d;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.productos-marcas-container {
+  max-width: 500px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 4px solid #2f2d2d;
+  overflow: hidden;
+}
+.productos-marcas-container .productos-marcas-logo-container-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.productos-marcas-container .productos-marcas-logo-container-mobile img {
+  width: 300px;
+  border-radius: 10px;
+}
+.productos-marcas-container .productos-marcas-titulo-container {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.productos-marcas-container .productos-marcas-titulo-container h2 {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+.productos-marcas-container .productos-marcas-slider-container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-top: 4px solid #2f2d2d;
+  border-bottom: 4px solid #2f2d2d;
+}
+.productos-marcas-container .productos-marcas-slider-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.productos-marcas-container .productos-marcas-descripcion-container {
+  width: 100%;
+  height: 120px;
+  background-color: #FBF8F4;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productos-marcas-container .productos-marcas-descripcion-container p {
+  color: #2f2d2d;
+  font-family: "Mulish", sans-serif;
+}
+.productos-marcas-container .productos-descripcion-beneficios {
+  width: 100%;
+  padding: 30px 5px 30px 5px;
+  color: #2f2d2d;
+  font-family: "Mulish", sans-serif;
+  background-color: #FBF8F4;
+}
+.productos-marcas-container .productos-descripcion-beneficios h3 {
+  text-transform: uppercase;
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+}
+.productos-marcas-container .productos-marcas-dlc-container-mobile {
+  width: 100%;
+  padding: 5px;
+  background-color: #FBF8F4;
+}
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile {
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile a {
+  width: 90%;
+}
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile a button {
+  height: 80px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+  text-decoration: none;
+  background-color: #2f2d2d;
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.productos-marcas-container-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 1300px;
+  margin-top: 100px;
+  border: 4px solid #2f2d2d;
+  border-radius: 20px;
+  background-color: #2f2d2d;
+}
+.productos-marcas-container-desktop .productos-marcas-titulo-container-desktop {
+  width: 100%;
+  height: 120px;
+  background-color: #2f2d2d;
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
+  display: flex;
+}
+.productos-marcas-container-desktop .productos-marcas-titulo-container-desktop .productos-marcas-titulo-img-container {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productos-marcas-container-desktop .productos-marcas-titulo-container-desktop .productos-marcas-titulo-img-container img {
+  width: 220px;
+  border-radius: 10px;
+}
+.productos-marcas-container-desktop .productos-marcas-titulo-container-desktop h1 {
+  height: 100%;
+  width: 80%;
+  font-family: "Lexend Tera", sans-serif;
+  color: #FBF8F4;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productos-marcas-container-desktop .productos-marcas-slider-container-desktop {
+  width: 100%;
+  height: 340px;
+  border-left: 3px solid #FBF8F4;
+  border-right: 3px solid #FBF8F4;
+}
+.productos-marcas-container-desktop .productos-marcas-slider-container-desktop img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.productos-marcas-container-desktop .productos-marcas-descripcion-container-desktop {
+  width: 100%;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-left: 4px solid #FBF8F4;
+  border-right: 4px solid #FBF8F4;
+  background-color: #FBF8F4;
+}
+.productos-marcas-container-desktop .productos-marcas-descripcion-container-desktop p {
+  font-family: "Questrial", sans-serif;
+  color: #2f2d2d;
+  font-size: 20px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  background-color: #FBF8F4;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0 0 20px 20px;
+  border: 4px solid #2f2d2d;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop h3 {
+  text-transform: uppercase;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 32px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop p {
+  color: #2f2d2d;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop {
+  width: 40%;
+  max-width: 1300px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  position: relative;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop button {
+  position: absolute;
+  height: 75px;
+  width: 90%;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
+  border: none;
+  bottom: -220px;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop button a {
+  text-decoration: none;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#productos-marcas-ultimo {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .productos-intro-container-desktop {
+    display: none;
+  }
+  .productos-marcas-container-desktop {
+    display: none;
+  }
+  #productos-marcas-ultimo-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 800px) {
+  .productos-intro-container {
+    display: none;
+  }
+  .productos-marcas-container {
+    display: none;
+  }
+  .productos-marcas-intro-container {
+    display: none;
+  }
+  #productos-marcas-ultimo {
+    display: none;
+  }
+}/*# sourceMappingURL=_productos.css.map */

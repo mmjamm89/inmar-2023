@@ -32,7 +32,6 @@ $font-2: 'Mulish', sans-serif;
         display: flex;
         justify-content: space-between;
         width: 90vw;
-        // max-width: 494px;
         .logo {
             display: grid;
             place-items: center;
@@ -163,6 +162,7 @@ $font-2: 'Mulish', sans-serif;
                 margin-left: 30px;
                 text-transform: uppercase;
                 font-size: 20px;
+                font-weight: 600;
             }
         }
     }    
