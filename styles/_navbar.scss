@@ -92,12 +92,13 @@ $font-2: 'Mulish', sans-serif;
     align-items: flex-start;
     justify-content: space-around;    
     height: 600px;
+    width: 90vw;
     .mobile-nav-link {
         font-family: $font-1;
         font-weight: 600;
         text-decoration: none;
         cursor: pointer;
-        font-size: 35px;
+        font-size: 28px;
         text-transform: uppercase;
     }    
 }

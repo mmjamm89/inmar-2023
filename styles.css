@@ -222,6 +222,7 @@ body {
 .marcas-home-mobile .marcas-home-mobile-img-container img {
   width: 300px;
   border-radius: 20px;
+  border: 4px solid #2f2d2d;
 }
 .marcas-home-mobile .marcas-home-mobile-img-container .marcas-home-mobile-button {
   position: absolute;
@@ -801,13 +802,14 @@ body {
   align-items: flex-start;
   justify-content: space-around;
   height: 600px;
+  width: 90vw;
 }
 .mobile-nav-links-container .mobile-nav-link {
   font-family: "Lexend Tera", sans-serif;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  font-size: 35px;
+  font-size: 28px;
   text-transform: uppercase;
 }
 
@@ -1186,6 +1188,7 @@ footer h5 {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 900;
 }
 .productos-marcas-container .productos-marcas-slider-container {
   width: 100%;
@@ -1444,6 +1447,7 @@ footer h5 {
   border-radius: 20px;
   height: 400px;
   width: 90%;
+  border: 4px solid #2f2d2d;
 }
 
 #form-contacto {
@@ -1464,7 +1468,7 @@ footer h5 {
 }
 #form-contacto .form-container #form-titulo .form-call-to-action {
   font-size: 24px;
-  color: #FBF8F4;
+  color: #2f2d2d;
   font-family: "Mulish", sans-serif;
   margin-bottom: 40px;
 }
@@ -1484,35 +1488,37 @@ footer h5 {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .form-mail {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .form-tel {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .form-mensaje {
   font-weight: 200;
   font-size: 16px;
   font-weight: bold;
-  color: #FBF8F4;
+  color: #2f2d2d;
 }
 #form-contacto .form-container form .data-input {
   height: 35px;
   padding: 5px;
   border-radius: 5px;
-  background-color: #FBF8F4;
+  background-color: #fff;
   font-size: 20px;
+  border: 2px solid #2f2d2d;
 }
 #form-contacto .form-container form #input-mensaje {
   height: 100px;
+  border: 2px solid #2f2d2d;
 }
 #form-contacto .form-container form .form-btn-container {
   height: 50px;
@@ -1533,6 +1539,8 @@ footer h5 {
   margin-top: 30px;
   cursor: pointer;
   box-shadow: 2px 2px 4px grey;
+  background-color: #2f2d2d;
+  color: #FBF8F4;
 }
 
 #form-contacto-mobile-home {
