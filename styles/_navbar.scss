@@ -103,13 +103,10 @@ $font-2: 'Mulish', sans-serif;
 }
 // MOBILE NAV END
 
-@media screen and (max-width: 1000px) {
-    #navbar {
-        // max-width: 494px;
-    }
+@media screen and (max-width: 1050px) {    
     .navbar {
-        max-width: 494px;
-        // width: 70vw;
+        // max-width: 494px;
+        width: 90vw;
     }
     .desktop-nav {
         display: none;
@@ -118,15 +115,12 @@ $font-2: 'Mulish', sans-serif;
         display: none;
     }
 }
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1050px) {
     #navbar {
-        height: 100px;        
+        height: 100px;
         width: 100vw;
     }
     .navbar {
-        // max-width: 1300px;
-        
     }
     #navbar .navbar .logo {
         display: none;

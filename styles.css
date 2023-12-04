@@ -36,6 +36,18 @@ body {
   background: linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center/var(--dot-space) var(--dot-space), linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center/var(--dot-space) var(--dot-space), var(--dot-color);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2f2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FBF8F4;
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -883,9 +895,9 @@ body {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .navbar {
-    max-width: 494px;
+    width: 90vw;
   }
   .desktop-nav {
     display: none;
@@ -894,7 +906,7 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1050px) {
   #navbar {
     height: 100px;
     width: 100vw;
@@ -1404,7 +1416,7 @@ footer h5 {
   margin-bottom: 20px;
 }
 .productos-marcas-intro-container h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 900;
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
