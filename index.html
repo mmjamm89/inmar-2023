@@ -332,6 +332,40 @@
             </div>
         </section>             
         <!-- FORM MOBILE -->
+        <section id="home-mobile-contacto">
+            <h1>solicite cotización.
+                <br>
+                Nos comunicaremos a la brevedad.
+            </h1>
+            <div class="form-container-home-mobile">
+                <form
+                    action="https://sheetdb.io/api/v1/7bsr285spl98l"
+                    id="form-inmar-home-mobile"
+                    method="post"
+                    target="_blank">
+
+                    <div class="input-form-home-mobile">
+                        <h4 class="form-nombre">Nombre/Empresa</h4>
+                        <input class="data-input" type="text" name="data[nombre]" required>
+                    </div>
+                    <div class="input-form-home-mobile">
+                        <h4 class="form-mail">Email</h4>
+                        <input class="data-input" type="email" name="data[email]" required>
+                    </div>
+                    <div class="input-form-home-mobile">
+                        <h4 class="form-tel">Teléfono</h4>
+                        <input class="data-input" type="tel" name="data[telefono]" required>
+                    </div>
+                    <div class="input-form-home-mobile">
+                        <h4 class="form-mensaje">Mensaje</h4>
+                        <textarea class="data-input" type="text" name="data[mensaje]" id="input-mensaje" required></textarea>
+                    </div>                                        
+                    <div class="form-btn-container">
+                        <button class="form-btn" type="submit" >Enviar</button>        
+                    </div>                    
+                </form>
+            </div>
+        </section>
         <!-- DESKTOP SECCION CONTACTO -->
         <section id="home-desktop-contacto">
             <h1>solicite cotización.
@@ -373,7 +407,8 @@
         </footer>
     </div>
 
-    <script src="form_home_desktop.js"></script>    
+    <script src="form_home_desktop.js"></script>
+    <script src="form_home_mobile.js"></script>
     <script src="burger_menu.js"></script>
 
 </body>
