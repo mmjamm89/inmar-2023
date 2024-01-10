@@ -24,19 +24,49 @@ $font-4: 'Epilogue', sans-serif;
 
 //STYLES
 
-footer {
-    height: 100px;
-    width: 100%;
+footer {    
+    width: 100%;    
     background-color: $color-1;
     position: absolute;
     bottom: 0;
+    display: grid;
+    border-top: 1px solid $color-2;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid $color-2;
-    h5 {
-        color: $color-2;
-        font-family: $font-3;
-        font-weight: 100;
+    .footer-container-desktop {
+        height: 120px;
+        width: 90vw;
+        max-width: 1300px;        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .footer-logo-container-desktop {
+            height: 100%;
+            display: flex;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .footer-info-contacto-desktop {
+            height: 100%;
+            padding-top: 20px;            
+            p {
+                color: $color-2;
+                font-family: $font-2;
+            }
+        }
+        .footer-mapa-desktop {
+            height: 100%;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            a {
+                color: $color-2;
+                font-family: $font-2;
+            }
+        }
     }
 }

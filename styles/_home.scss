@@ -7,6 +7,7 @@ $color-2: #FBF8F4;
 $color-3: white;
 $color-4: #FEF2D4;
 $color-5: #1F1E1E;
+$color-6: #ACACAC;
 
 //FONTS
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -89,7 +90,6 @@ body {
     width: 90vw;
     max-width: 1300px;
     height: 300px;
-    // background-color: $color-2;
     border-radius: 20px;
     margin-top: 100px;
     display: flex;
@@ -112,15 +112,17 @@ body {
         }
         .desktop-text-container {
             margin-top: 20px;
-            width: 100%;                      
+            width: 100%;            
             .text-productos-container-desktop {
-                width: 100%;                            
+                width: 100%;
+                overflow: hidden;
+                position: relative;
                 .text-productos-desktop {
                     font-family: $font-1;
                     color: $color-1;
                     font-size: 32px;
-                    font-weight: 900;
-                }
+                    font-weight: 900;                    
+                }                
             }
         }
         
@@ -240,11 +242,25 @@ body {
                     background-color: $color-1;
                     cursor: pointer;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+                    transition: .5s;
                     h1 {
                         color: $color-2;
                         text-transform: uppercase;
                         font-family: $font-1;
                     }
+                }
+                button:hover {
+                    background-color: $color-2;
+                    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+                    transition: .5s;
+                    h1 {
+                        color: $color-1;
+                    }
+                }
+                button:active {
+                    transform: translateY(2px);
+                    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+                    transition: .2s;
                 }
             }
         }
@@ -258,8 +274,7 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
     position: relative;
-    display: none;
-    background-color: $color-2;    
+    display: none;    
     border: 8px solid $color-1;
     overflow: hidden;
     transition: .3s;    
@@ -283,7 +298,7 @@ body {
     }
     .descripcion-empresa-text-container-desktop-descripcion {
         padding-left: 20px;
-        background-color: $color-2;
+        background-color: none;
         padding-top: 20px;
         padding-bottom: 20px;
         display: flex;
@@ -313,8 +328,7 @@ body {
 .marcas-home-desktop {
     width: 90vw;
     max-width: 1300px;
-    margin-bottom: 20px;
-    background-color: $color-2;
+    margin-bottom: 20px;    
     border-radius: 20px;    
     position: relative;
     border: 8px solid $color-1;
@@ -329,7 +343,7 @@ body {
         margin: auto 0;
     }
     .marcas-home-desktop-titulo {
-        width: 100%;        
+        width: 100%;
         border-bottom: 3px solid $color-1;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -347,10 +361,7 @@ body {
             }
         }
         .marcas-home-desktop-titulo-text {            
-            height: 100%;
-            display: flex;            
-            align-items: center;
-            justify-content: flex-start;
+            height: 100%;            
             padding-left: 10px;            
             h1 {
                 font-size: 28px;
@@ -358,7 +369,7 @@ body {
                 text-transform: uppercase;
                 color: $color-1;
             }
-        }             
+        }
     }
     .marcas-home-desktop-descripcion-container {        
         width: 74%;
@@ -386,11 +397,25 @@ body {
             border-radius: 10px;
             cursor: pointer;
             filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+            transition: .5s;
             h1 {
                 color: $color-2;
                 font-family: $font-1;
                 text-transform: uppercase;
             }
+        }
+        button:hover {
+            background-color: $color-6;
+            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+            transition: .5s;
+            h1 {
+                color: $color-1;
+            }
+        }
+        button:active {
+            transform: translateY(2px);
+            filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+            transition: .2s;
         }
     }
     
@@ -444,11 +469,25 @@ body {
                 border-radius: 10px;
                 filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
                 background-color: $color-1;
+                transition: .5s;
                 h1 {
                     font-family: $font-1;
                     color: $color-2;
                     text-transform: uppercase;
                 }
+            }
+            button:hover {
+                background-color: $color-2;
+                filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+                transition: .5s;
+                h1 {
+                    color: $color-1;
+                }
+            }
+            button:active {
+                transform: translateY(2px);
+                filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+                transition: .2s;
             }
         }
     }
@@ -528,6 +567,7 @@ body {
                     border-radius: 10px;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
                     background-color: $color-1;
+                    transition: .5s;
                     h1 {
                         font-family: $font-1;
                         text-transform: uppercase;
@@ -535,6 +575,19 @@ body {
                         font-weight: bold;
                         font-size: 30px;
                     }
+                }
+                button:hover {
+                    background-color: $color-6;
+                    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+                    transition: .5s;
+                    h1 {
+                        color: $color-1;
+                    }
+                }
+                button:active {
+                    transform: translateY(2px);
+                    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+                    transition: .2s;
                 }
             }
         }
@@ -624,6 +677,18 @@ body {
                     font-weight: 700;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
                     cursor: pointer;
+                    transition: .5s;
+                }
+                button:hover {
+                    background-color: $color-6;
+                    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+                    color: $color-1;
+                    transition: .5s;
+                }
+                button:active {
+                    transform: translateY(2px);
+                    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+                    transition: .2s;
                 }
             }
         }
@@ -710,12 +775,23 @@ body {
                     font-weight: 700;
                     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
                     cursor: pointer;
+                    transition: .5s;
+                }
+                button:hover {
+                    background-color: $color-2;
+                    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+                    color: $color-1;
+                    transition: .5s;
+                }
+                button:active {
+                    transform: translateY(2px);
+                    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+                    transition: .2s;
                 }
             }
         }
     }
 }
-
 .form-contacto-titulo-desktop {
     width: 90vw;    
     height: 100px;

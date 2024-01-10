@@ -119,6 +119,8 @@ body {
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-productos-container-desktop {
   width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 #call-to-action-desktop .call-to-action-desktop-logo-container .desktop-text-container .text-productos-container-desktop .text-productos-desktop {
   font-family: "Lexend Tera", sans-serif;
@@ -244,11 +246,25 @@ body {
   background-color: #2f2d2d;
   cursor: pointer;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
 }
 .marcas-home-mobile .marcas-home-mobile-img-container .marcas-home-mobile-button a button h1 {
   color: #FBF8F4;
   text-transform: uppercase;
   font-family: "Lexend Tera", sans-serif;
+}
+.marcas-home-mobile .marcas-home-mobile-img-container .marcas-home-mobile-button a button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
+}
+.marcas-home-mobile .marcas-home-mobile-img-container .marcas-home-mobile-button a button:hover h1 {
+  color: #2f2d2d;
+}
+.marcas-home-mobile .marcas-home-mobile-img-container .marcas-home-mobile-button a button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #descripcion-empresa-desktop {
@@ -259,7 +275,6 @@ body {
   margin-bottom: 40px;
   position: relative;
   display: none;
-  background-color: #FBF8F4;
   border: 8px solid #2f2d2d;
   overflow: hidden;
   transition: 0.3s;
@@ -284,7 +299,7 @@ body {
 }
 #descripcion-empresa-desktop .descripcion-empresa-text-container-desktop-descripcion {
   padding-left: 20px;
-  background-color: #FBF8F4;
+  background-color: none;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -315,7 +330,6 @@ body {
   width: 90vw;
   max-width: 1300px;
   margin-bottom: 20px;
-  background-color: #FBF8F4;
   border-radius: 20px;
   position: relative;
   border: 8px solid #2f2d2d;
@@ -351,9 +365,6 @@ body {
 }
 .marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-titulo-text {
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   padding-left: 10px;
 }
 .marcas-home-desktop .marcas-home-desktop-titulo .marcas-home-desktop-titulo-text h1 {
@@ -389,11 +400,25 @@ body {
   border-radius: 10px;
   cursor: pointer;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
 }
 .marcas-home-desktop .marcas-home-desktop-button-container button h1 {
   color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   text-transform: uppercase;
+}
+.marcas-home-desktop .marcas-home-desktop-button-container button:hover {
+  background-color: #ACACAC;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
+}
+.marcas-home-desktop .marcas-home-desktop-button-container button:hover h1 {
+  color: #2f2d2d;
+}
+.marcas-home-desktop .marcas-home-desktop-button-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #home-desktop-slogans {
@@ -445,11 +470,25 @@ body {
   border-radius: 10px;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   background-color: #2f2d2d;
+  transition: 0.5s;
 }
 #home-mobile-obras .home-mobile-obras-button a button h1 {
   font-family: "Lexend Tera", sans-serif;
   color: #FBF8F4;
   text-transform: uppercase;
+}
+#home-mobile-obras .home-mobile-obras-button a button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
+}
+#home-mobile-obras .home-mobile-obras-button a button:hover h1 {
+  color: #2f2d2d;
+}
+#home-mobile-obras .home-mobile-obras-button a button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #home-mobile-slogans {
@@ -532,6 +571,7 @@ body {
   border-radius: 10px;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   background-color: #2f2d2d;
+  transition: 0.5s;
 }
 #home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button h1 {
   font-family: "Lexend Tera", sans-serif;
@@ -539,6 +579,19 @@ body {
   color: #FBF8F4;
   font-weight: bold;
   font-size: 30px;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button:hover {
+  background-color: #ACACAC;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button:hover h1 {
+  color: #2f2d2d;
+}
+#home-desktop-obras .home-desktop-obras-call-to .home-desktop-obras-call-to-button a button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #home-desktop-contacto {
@@ -629,6 +682,18 @@ body {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#home-desktop-contacto .form-container-home-desktop form .form-btn-container button:hover {
+  background-color: #ACACAC;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+#home-desktop-contacto .form-container-home-desktop form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #home-mobile-contacto {
@@ -716,6 +781,18 @@ body {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#home-mobile-contacto .form-container-home-mobile form .form-btn-container button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+#home-mobile-contacto .form-container-home-mobile form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 .form-contacto-titulo-desktop {
@@ -966,20 +1043,50 @@ body {
   }
 }
 footer {
-  height: 100px;
   width: 100%;
   background-color: #2f2d2d;
   position: absolute;
   bottom: 0;
+  display: grid;
+  border-top: 1px solid #FBF8F4;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #FBF8F4;
 }
-footer h5 {
+footer .footer-container-desktop {
+  height: 120px;
+  width: 90vw;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer .footer-container-desktop .footer-logo-container-desktop {
+  height: 100%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer .footer-container-desktop .footer-info-contacto-desktop {
+  height: 100%;
+  padding-top: 20px;
+}
+footer .footer-container-desktop .footer-info-contacto-desktop p {
   color: #FBF8F4;
-  font-family: "Questrial", sans-serif;
-  font-weight: 100;
+  font-family: "Mulish", sans-serif;
+}
+footer .footer-container-desktop .footer-mapa-desktop {
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+footer .footer-container-desktop .footer-mapa-desktop a {
+  color: #FBF8F4;
+  font-family: "Mulish", sans-serif;
 }
 
 * {
@@ -1258,6 +1365,18 @@ footer h5 {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#obras-desktop-contacto .form-container-obras-desktop form .form-btn-container button:hover {
+  background-color: #ACACAC;
+  color: #2f2d2d;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
+}
+#obras-desktop-contacto .form-container-obras-desktop form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #obras-mobile-contacto {
@@ -1345,6 +1464,17 @@ footer h5 {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .form-btn-container button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+#obras-mobile-contacto .form-container-obras-mobile form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 800px) {
@@ -1525,6 +1655,18 @@ footer h5 {
   font-size: 24px;
   cursor: pointer;
   margin-bottom: 30px;
+  transition: 0.5s;
+}
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile a button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+.productos-marcas-container .productos-marcas-dlc-container-mobile .productos-marcas-dlc-link-container-mobile .productos-marcas-dlc-link-mobile a button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 .productos-marcas-intro-container-desktop {
@@ -1789,6 +1931,18 @@ footer h5 {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#productos-desktop-contacto .form-container-productos-desktop form .form-btn-container button:hover {
+  background-color: #ACACAC;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+#productos-desktop-contacto .form-container-productos-desktop form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #productos-mobile-contacto {
@@ -1876,6 +2030,18 @@ footer h5 {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#productos-mobile-contacto .form-container-productos-mobile form .form-btn-container button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+#productos-mobile-contacto .form-container-productos-mobile form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #productos-marcas-ultimo {
@@ -2013,6 +2179,18 @@ footer h5 {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#contacto-desktop-contacto .form-container-contacto-desktop form .form-btn-container button:hover {
+  background-color: #ACACAC;
+  color: #2f2d2d;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  transition: 0.5s;
+}
+#contacto-desktop-contacto .form-container-contacto-desktop form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #contacto-mobile-contacto {
@@ -2100,6 +2278,18 @@ footer h5 {
   font-weight: 700;
   filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.7));
   cursor: pointer;
+  transition: 0.5s;
+}
+#contacto-mobile-contacto .form-container-contacto-mobile form .form-btn-container button:hover {
+  background-color: #FBF8F4;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.7));
+  color: #2f2d2d;
+  transition: 0.5s;
+}
+#contacto-mobile-contacto .form-container-contacto-mobile form .form-btn-container button:active {
+  transform: translateY(2px);
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.7));
+  transition: 0.2s;
 }
 
 #mapa-contacto {
