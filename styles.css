@@ -1093,6 +1093,11 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   opacity: 0.6;
 }
 
+@media screen and (max-width: 800px) {
+  footer .footer-container-desktop .footer-logo-container-desktop {
+    width: 100px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
