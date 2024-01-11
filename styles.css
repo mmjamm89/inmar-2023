@@ -1053,22 +1053,22 @@ body {
   }
 }
 footer {
-  width: 100%;
+  width: 100vw;
   background-color: #2f2d2d;
   position: absolute;
   bottom: 0;
   display: grid;
   border-top: 1px solid #FBF8F4;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 footer .footer-container-desktop {
   height: 120px;
   width: 90vw;
-  max-width: 1300px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 footer .footer-container-desktop .footer-logo-container-desktop {
   height: 100%;
@@ -1077,14 +1077,7 @@ footer .footer-container-desktop .footer-logo-container-desktop {
   padding-bottom: 20px;
   align-items: center;
   justify-content: flex-start;
-}
-footer .footer-container-desktop .footer-info-contacto-desktop {
-  height: 100%;
-  padding-top: 20px;
-}
-footer .footer-container-desktop .footer-info-contacto-desktop p {
-  color: #FBF8F4;
-  font-family: "Mulish", sans-serif;
+  opacity: 0.6;
 }
 footer .footer-container-desktop .footer-mapa-desktop {
   height: 100%;
@@ -1097,6 +1090,7 @@ footer .footer-container-desktop .footer-mapa-desktop {
 footer .footer-container-desktop .footer-mapa-desktop a {
   color: #FBF8F4;
   font-family: "Mulish", sans-serif;
+  opacity: 0.6;
 }
 
 * {
