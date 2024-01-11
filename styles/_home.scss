@@ -432,25 +432,13 @@ body {
     align-items: flex-start;
     justify-content: space-around;
     margin-top: 60px;
-    margin-bottom: 100px;
-    padding-top: 30px;
+    margin-bottom: 100px;    
     h1 {
         color: $color-2;
         font-family: $font-1;
         font-size: 34px;
         padding: 20px;
         text-transform: uppercase;
-    }
-    .home-desktop-slogans-truck {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 40px;
-        svg {
-            width: 200px;
-        }
     }
 }
 #home-mobile-obras {
