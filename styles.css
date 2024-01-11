@@ -130,7 +130,8 @@ body {
 }
 
 #descripcion-empresa {
-  margin-top: 60px;
+  margin-top: 80px;
+  margin-bottom: 20px;
   width: 90vw;
   border: 8px solid #2f2d2d;
   border-radius: 20px;
@@ -180,7 +181,7 @@ body {
 }
 
 .marcas-home-mobile {
-  margin-top: 40px;
+  margin-top: 60px;
   width: 90vw;
   border-radius: 20px;
   border: 8px solid #2f2d2d;
@@ -426,13 +427,32 @@ body {
   background-color: #2f2d2d;
   max-width: 1300px;
   border-radius: 20px;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   margin-top: 60px;
   margin-bottom: 100px;
+  padding-top: 30px;
+}
+#home-desktop-slogans h1 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 34px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+#home-desktop-slogans .home-desktop-slogans-truck {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+#home-desktop-slogans .home-desktop-slogans-truck svg {
+  width: 200px;
 }
 
 #home-mobile-obras {
@@ -492,31 +512,29 @@ body {
 }
 
 #home-mobile-slogans {
-  width: 100vw;
+  width: 90vw;
   border-radius: 20px;
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 5px;
-  height: 500px;
+  border: 8px solid #2f2d2d;
+  background-color: #2f2d2d;
+}
+#home-mobile-slogans h1 {
+  color: #FBF8F4;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 26px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+#home-mobile-slogans .home-mobile-slogans-truck {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
-#home-mobile-slogans .home-mobile-envios {
-  font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
-  text-transform: uppercase;
-}
-#home-mobile-slogans .home-mobile-precios {
-  font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
-  text-transform: uppercase;
-}
-#home-mobile-slogans .home-mobile-constructores {
-  font-family: "Lexend Tera", sans-serif;
-  color: #2f2d2d;
-  text-transform: uppercase;
-  font-size: 28px;
+#home-mobile-slogans .home-mobile-slogans-truck svg {
+  width: 200px;
 }
 
 #home-desktop-obras {
@@ -699,7 +717,7 @@ body {
 #home-mobile-contacto {
   width: 90vw;
   border: 8px solid #2f2d2d;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 80px;
   border-radius: 20px;
 }
