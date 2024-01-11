@@ -135,7 +135,6 @@ body {
   width: 90vw;
   border: 8px solid #2f2d2d;
   border-radius: 20px;
-  background-color: #FBF8F4;
   transition: 0.3s;
   overflow: hidden;
 }
@@ -1608,6 +1607,10 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   position: relative;
   border-top: 4px solid #2f2d2d;
   border-bottom: 4px solid #2f2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF8F4;
 }
 .productos-marcas-container .productos-marcas-slider-container img {
   width: 100%;
@@ -1617,7 +1620,6 @@ footer .footer-container-desktop .footer-mapa-desktop a {
 }
 .productos-marcas-container .productos-marcas-descripcion-container {
   width: 100%;
-  background-color: #FBF8F4;
   padding: 5px;
   border-bottom: 4px solid #2f2d2d;
 }
@@ -1630,7 +1632,6 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   padding: 30px 5px 30px 5px;
   color: #2f2d2d;
   font-family: "Mulish", sans-serif;
-  background-color: #FBF8F4;
 }
 .productos-marcas-container .productos-descripcion-beneficios h3 {
   text-transform: uppercase;
