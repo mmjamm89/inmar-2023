@@ -99,6 +99,11 @@ $font-2: 'Mulish', sans-serif;
         cursor: pointer;
         font-size: 28px;
         text-transform: uppercase;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+    .mobile-nav-link:hover {
+        box-shadow: inset 400px 0 0 0 $color-1;
+        color: $color-2;
     }    
 }
 // MOBILE NAV END
@@ -157,6 +162,11 @@ $font-2: 'Mulish', sans-serif;
                 text-transform: uppercase;
                 font-size: 20px;
                 font-weight: 600;
+                transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+            }
+            .desktop-nav-link:hover {
+                box-shadow: inset 230px 0 0 0 $color-1;
+                color: $color-2;
             }
         }
     }    
