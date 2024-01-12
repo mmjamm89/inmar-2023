@@ -1211,18 +1211,25 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   font-weight: 600;
   font-size: 18px;
 }
-#obras-mobile-container .obras-mobile-datos-container {
+#obras-mobile-container .galeria-img-obra-mobile {
+  padding: 20px;
   width: 100%;
-  height: 300px;
-  border-top: 4px solid #2f2d2d;
+  display: grid;
+  border-top: 8px solid #2f2d2d;
+  grid-gap: 20px;
 }
-#obras-mobile-container .obras-mobile-datos-texto {
-  border-top: 4px solid #2f2d2d;
-  padding-top: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-  font-family: "Mulish", sans-serif;
+#obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile {
+  height: 300px;
+  border-radius: 20px;
+  border: 4px solid #2f2d2d;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF8F4;
+}
+#obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile img {
+  width: 120%;
 }
 
 #obras-desktop-container {
@@ -1258,11 +1265,6 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   border-bottom: 8px solid #2f2d2d;
   border-top: 8px solid #2f2d2d;
 }
-#obras-desktop-container .obras-desktop-galeria {
-  width: 100%;
-  height: 300px;
-  border-bottom: 8px solid #2f2d2d;
-}
 #obras-desktop-container .obras-desktop-descripcion {
   padding-left: 10px;
   padding-right: 10px;
@@ -1273,22 +1275,26 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   font-size: 18px;
   background-color: #FBF8F4;
 }
-#obras-desktop-container .obras-desktop-datos {
+#obras-desktop-container .galeria-img-obra-desktop {
+  padding: 20px;
   width: 100%;
-  display: flex;
-  background-color: #FBF8F4;
-  border-top: 4px solid #2f2d2d;
+  display: grid;
+  border-top: 8px solid #2f2d2d;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
 }
-#obras-desktop-container .obras-desktop-datos p {
-  width: 60%;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: "Mulish", sans-serif;
-  color: #2f2d2d;
-  font-weight: 600;
-  border-right: 4px solid #2f2d2d;
-  padding-top: 10px;
-  padding-bottom: 10px;
+#obras-desktop-container .galeria-img-obra-desktop .galeria-obra-img-container {
+  height: 300px;
+  border-radius: 20px;
+  border: 4px solid #2f2d2d;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF8F4;
+}
+#obras-desktop-container .galeria-img-obra-desktop .galeria-obra-img-container img {
+  height: 120%;
 }
 
 #obras-desktop-contacto {
