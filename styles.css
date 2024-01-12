@@ -1226,9 +1226,32 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   align-items: center;
   justify-content: center;
   background-color: #FBF8F4;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
 }
 #obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile img {
-  width: 120%;
+  width: 130%;
+}
+#obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile h1 {
+  position: absolute;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  opacity: 0;
+  transition: 0.5s;
+}
+#obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile:hover {
+  transition: 0.5s;
+}
+#obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile:hover img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#obras-mobile-container .galeria-img-obra-mobile .galeria-obra-img-container-mobile:hover h1 {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 #obras-desktop-container {
@@ -1290,9 +1313,30 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   align-items: center;
   justify-content: center;
   background-color: #FBF8F4;
+  transition: 0.5s;
+  position: relative;
+  cursor: pointer;
 }
 #obras-desktop-container .galeria-img-obra-desktop .galeria-obra-img-container img {
   height: 120%;
+  transition: 0.5s;
+}
+#obras-desktop-container .galeria-img-obra-desktop .galeria-obra-img-container h1 {
+  position: absolute;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 32px;
+  color: #2f2d2d;
+  font-weight: 900;
+  opacity: 0;
+  transition: 0.5s;
+}
+#obras-desktop-container .galeria-img-obra-desktop .galeria-obra-img-container:hover img {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#obras-desktop-container .galeria-img-obra-desktop .galeria-obra-img-container:hover h1 {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 #obras-desktop-contacto {
