@@ -248,8 +248,39 @@ $font-4: 'Epilogue', sans-serif;
             }
         }
     }
-
-
+}
+.popup-img-desktop {
+    width: 90vw;
+    height: 80vh;
+    min-height: 700px;
+    background-color: rgb(47, 45, 45, 0.5);
+    margin-top: 105px;
+    border-radius: 20px;        
+    position: fixed;    
+    transition: .5s;
+    display: none;    
+    span {
+        position: absolute;
+        font-size: 40px;
+        top: 0;
+        right: 10px;
+        color: $color-2;
+        font-family: $font-1;
+        z-index: 99;
+        cursor: pointer;
+        transition: .5s;
+    }    
+    img {
+        height: 90%;
+        max-width: 90%;
+        z-index: 99;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s;
+    }
 }
 #obras-desktop-contacto {
     width: 90vw;

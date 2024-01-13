@@ -1339,6 +1339,40 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   transition: 0.5s;
 }
 
+.popup-img-desktop {
+  width: 90vw;
+  height: 80vh;
+  min-height: 700px;
+  background-color: rgba(47, 45, 45, 0.5);
+  margin-top: 105px;
+  border-radius: 20px;
+  position: fixed;
+  transition: 0.5s;
+  display: none;
+}
+.popup-img-desktop span {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+  right: 10px;
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  z-index: 99;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.popup-img-desktop img {
+  height: 90%;
+  max-width: 90%;
+  z-index: 99;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
 #obras-desktop-contacto {
   width: 90vw;
   max-width: 1300px;
