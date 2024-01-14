@@ -1131,14 +1131,14 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 900;
 }
 #obras-titulo-mobile-container p {
   font-family: "Mulish", sans-serif;
   color: #2f2d2d;
   font-weight: 600;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 #obras-titulo-desktop-container {
@@ -2511,11 +2511,10 @@ footer .footer-container-desktop .footer-mapa-desktop a {
     border-radius: 20px;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop img {
     width: 300px;

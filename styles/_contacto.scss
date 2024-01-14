@@ -346,11 +346,10 @@ $font-4: 'Epilogue', sans-serif;
                     }
                 }
                 .contacto-secondimg-desktop {                    
-                    width: 50%;                
+                    width: 100%;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
-                    display: none;
+                    justify-content: center;                    
                     img {
                         width: 300px;
                         border-radius: 20px;
