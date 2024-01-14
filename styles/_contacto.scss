@@ -315,7 +315,7 @@ $font-4: 'Epilogue', sans-serif;
                 h1 {
                     font-family: $font-1;
                     color: $color-1;
-                    font-size: 14px;
+                    font-size: 12px;
                     font-weight: bold;                    
                 }
             }
@@ -334,14 +334,16 @@ $font-4: 'Epilogue', sans-serif;
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
+                flex-direction: column;
                 .contacto-firstimg-desktop {
-                    width: 50%;                
+                    width: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    display: none;
+                    // display: none;
+                    padding-bottom: 10px;
                     img {
-                        width: 300px;
+                        width: 100%;
                         border-radius: 20px;
                     }
                 }
@@ -351,7 +353,7 @@ $font-4: 'Epilogue', sans-serif;
                     align-items: center;
                     justify-content: center;                    
                     img {
-                        width: 300px;
+                        width: 100%;
                         border-radius: 20px;
                     }
                 }

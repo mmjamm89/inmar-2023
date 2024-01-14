@@ -911,6 +911,7 @@ body {
   justify-content: center;
   z-index: 99;
   background-color: #2f2d2d;
+  border-bottom: 1px solid #2f2d2d;
 }
 #navbar .navbar {
   display: flex;
@@ -1747,7 +1748,7 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
   margin-bottom: 30px;
   transition: 0.5s;
@@ -2480,7 +2481,7 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-datos-desktop h1 {
     font-family: "Lexend Tera", sans-serif;
     color: #2f2d2d;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-showroom-desktop {
@@ -2498,16 +2499,17 @@ footer .footer-container-desktop .footer-mapa-desktop a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-direction: column;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-firstimg-desktop {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    padding-bottom: 10px;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-firstimg-desktop img {
-    width: 300px;
+    width: 100%;
     border-radius: 20px;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop {
@@ -2517,7 +2519,7 @@ footer .footer-container-desktop .footer-mapa-desktop a {
     justify-content: center;
   }
   #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop img {
-    width: 300px;
+    width: 100%;
     border-radius: 20px;
   }
   #contacto-datos-container-desktop .contacto-map-desktop {
