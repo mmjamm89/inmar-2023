@@ -493,6 +493,13 @@ $font-4: 'Epilogue', sans-serif;
     #obras-desktop-container {
         display: none;
     }
+    #obras-desktop-container {
+        .galeria-img-obra-desktop {
+            .galeria-obra-img-container {
+                
+            }
+        }
+    }
     
 }
 @media screen and (min-width: 800px) {

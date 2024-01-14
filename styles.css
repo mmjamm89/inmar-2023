@@ -2190,7 +2190,7 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   width: 90vw;
   max-width: 1300px;
   border: 8px solid #2f2d2d;
-  margin-top: 150px;
+  margin-top: 60px;
   margin-bottom: 80px;
   border-radius: 20px;
 }
@@ -2288,10 +2288,75 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   transition: 0.2s;
 }
 
+#contacto-datos-container-desktop {
+  width: 90vw;
+  max-width: 1300px;
+  margin-top: 150px;
+  border: 8px solid #2f2d2d;
+  border-radius: 20px;
+  display: flex;
+}
+#contacto-datos-container-desktop .contacto-half-desktop {
+  width: 50%;
+  border-right: 8px solid #2f2d2d;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-datos-desktop {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-datos-desktop h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: #2f2d2d;
+  font-size: 30px;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-showroom-desktop {
+  padding: 10px;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-showroom-desktop p {
+  color: #2f2d2d;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 18px;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-firstimg-desktop {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-firstimg-desktop img {
+  width: 260px;
+  border-radius: 20px;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop img {
+  width: 260px;
+  border-radius: 20px;
+}
+#contacto-datos-container-desktop .contacto-map-desktop {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #contacto-mobile-contacto {
   width: 90vw;
   border: 8px solid #2f2d2d;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 80px;
   border-radius: 20px;
 }
@@ -2387,24 +2452,87 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   transition: 0.2s;
 }
 
-#mapa-contacto {
-  width: 90%;
-  border-radius: 20px;
-  overflow: hidden;
-  height: 400px;
-  width: 90%;
-  border: 8px solid #2f2d2d;
-}
-
 @media screen and (max-width: 800px) {
   #contacto-desktop-contacto {
     display: none;
   }
 }
-@media screen and (min-width: 800px) {
-  #mapa-contacto {
+@media screen and (max-width: 1300px) {
+  #contacto-datos-container-desktop {
+    width: 90vw;
+    max-width: 90vw;
+    margin-top: 110px;
+    border: 8px solid #2f2d2d;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop {
+    width: 100%;
+    border-right: none;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-datos-desktop {
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-datos-desktop h1 {
+    font-family: "Lexend Tera", sans-serif;
+    color: #2f2d2d;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-showroom-desktop {
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-showroom-desktop p {
+    color: #2f2d2d;
+    font-family: "Lexend Tera", sans-serif;
+    font-size: 18px;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-firstimg-desktop {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display: none;
   }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-firstimg-desktop img {
+    width: 300px;
+    border-radius: 20px;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  #contacto-datos-container-desktop .contacto-half-desktop .contacto-img-desktop .contacto-secondimg-desktop img {
+    width: 300px;
+    border-radius: 20px;
+  }
+  #contacto-datos-container-desktop .contacto-map-desktop {
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 800px) {
   #contacto-mobile-contacto {
     display: none;
   }
