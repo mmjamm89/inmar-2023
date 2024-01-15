@@ -295,6 +295,8 @@ $font-4: 'Epilogue', sans-serif;
                 color: $color-2;
                 font-family: $font-1;
                 font-size: 32px;
+                font-weight: 900;
+                margin-top: 20px;
             }
             p {
                 color: $color-2;
@@ -317,21 +319,24 @@ $font-4: 'Epilogue', sans-serif;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                .productos-marcas-dlc-link-desktop {
-                    height: 400px;
-                    width: 300px;                    
+                .productos-marcas-dlc-link-desktop {                    
+                    // height: 400px;
+                    width: 300px;
                     border-radius: 20px;
-                    position: relative;                    
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     img {
                         object-fit: cover;
-                        height: 100%;
-                        width: 100%;   
-                        border-radius: 20px;                 
+                        height: 100%;                        
+                        width: 90%;   
+                        border-radius: 20px;                        
                     }
                     button {
                         position: absolute;
                         height: 75px;
-                        width: 90%;
+                        width: 80%;
                         border-radius: 10px;
                         filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
                         border: none;
@@ -341,9 +346,10 @@ $font-4: 'Epilogue', sans-serif;
                         top: 0;
                         margin: auto;
                         cursor: pointer;
+                        background-color: $color-2;
                         a {
                             text-decoration: none;
-                            color: $color-2;
+                            color: $color-1;
                             font-family: $font-1;
                             font-size: 18px;
                             font-weight: 800;

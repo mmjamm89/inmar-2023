@@ -1881,6 +1881,8 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   color: #2f2d2d;
   font-family: "Lexend Tera", sans-serif;
   font-size: 32px;
+  font-weight: 900;
+  margin-top: 20px;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-beneficios-desktop p {
   color: #2f2d2d;
@@ -1905,22 +1907,24 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   align-items: center;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop {
-  height: 400px;
   width: 300px;
   border-radius: 20px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
-  width: 100%;
+  width: 90%;
   border-radius: 20px;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop button {
   position: absolute;
   height: 75px;
-  width: 90%;
+  width: 80%;
   border-radius: 10px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.9));
   border: none;
@@ -1930,10 +1934,11 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   top: 0;
   margin: auto;
   cursor: pointer;
+  background-color: #2f2d2d;
 }
 .productos-marcas-container-desktop .productos-marcas-beneficios-container-desktop .productos-marcas-dlc-container-desktop .productos-marcas-dlc-link-container-desktop .productos-marcas-dlc-link-desktop button a {
   text-decoration: none;
-  color: #2f2d2d;
+  color: #FBF8F4;
   font-family: "Lexend Tera", sans-serif;
   font-size: 18px;
   font-weight: 800;
