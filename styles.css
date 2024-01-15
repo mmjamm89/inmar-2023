@@ -1626,7 +1626,7 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   margin-bottom: 20px;
 }
 .productos-marcas-intro-container h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 900;
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
@@ -1720,6 +1720,7 @@ footer .footer-container-desktop .footer-mapa-desktop a {
   text-transform: uppercase;
   font-family: "Lexend Tera", sans-serif;
   color: #2f2d2d;
+  font-weight: 900;
 }
 .productos-marcas-container .productos-marcas-dlc-container-mobile {
   width: 100%;
